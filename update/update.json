@@ -1,13 +1,13 @@
 {
-  "versionCode": 210,
-  "versionName": "2.1",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.1/vsc.apk",
-  "apkSha256": "74fddb5a7425f2c4eb59736858051f177d7b96b8bec6b388446557fc797ba7a4",
-  "releaseNotes": "Versão estável 2.1",
+  "versionCode": 220,
+  "versionName": "2.2",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2/vsc.apk",
+  "apkSha256": "e2df2703f2e9cf43ac00125b9587a3d8cb578f0fcb33943b661bc1bb407e143b",
+  "releaseNotes": "Versão estável 2.2",
   "changelog": [
-    "Atualização de versão para 2.1.",
-    "Filtro de competições por clube selecionado.",
-    "Mostra apenas competições onde o clube está inserido.",
-    "Tratamento de caso sem competições disponíveis na época."
+    "Atualização de versão para 2.2.",
+    "Correção avançada na deteção de competições por clube.",
+    "Validação por fixtures para evitar omissão de competições válidas.",
+    "Melhoria da robustez de séries e fases na recolha de jogos."
   ]
 }
