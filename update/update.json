@@ -1,13 +1,12 @@
 {
-  "versionCode": 224,
-  "versionName": "2.2.4",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.4/vsc.apk",
-  "apkSha256": "8c90d4127b83366955a28c77b0297ba1da13bbe65c28295b46181fab9f1ef0f6",
-  "releaseNotes": "Versão estável 2.2.4",
+  "versionCode": 225,
+  "versionName": "2.2.5",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.5/vsc.apk",
+  "apkSha256": "2F57E2E32030CE44B8151035E2DC04BF06CF1D69A7B4A6ECA82EDA8144E0C3CA",
+  "releaseNotes": "Vers\u00e3o est\u00e1vel 2.2.5",
   "changelog": [
-    "Atualização de versão para 2.2.4.",
-    "Seleção de equipa obrigatória após o splash.",
-    "Pesquisa de equipas no popup de seleção.",
-    "Remoção das equipas do menu lateral."
+    "Atualiza\u00e7\u00e3o de vers\u00e3o para 2.2.5.",
+    "Pesquisa de equipa em todas as competi\u00e7\u00f5es da AF Braga (\u00e9poca selecionada).",
+    "Filtro de competi\u00e7\u00f5es mais fluido e com menor lat\u00eancia no carregamento inicial."
   ]
 }
