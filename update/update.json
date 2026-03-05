@@ -1,14 +1,13 @@
-{
-  "versionCode": 200,
-  "versionName": "2.0",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.0/vsc.apk",
-  "apkSha256": "86efa26cc80532c5b7043757089d5290c03857bf7f10a31f546b4fa2b67c6a63",
-  "releaseNotes": "Versão estável 2.0",
+﻿{
+  "versionCode": 210,
+  "versionName": "2.1",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.1/vsc.apk",
+  "apkSha256": "74fddb5a7425f2c4eb59736858051f177d7b96b8bec6b388446557fc797ba7a4",
+  "releaseNotes": "Versão estável 2.1",
   "changelog": [
-    "Atualização de versão para 2.0.",
-    "Seleção dinâmica de clubes AF Braga mantendo o fluxo atual da aplicação.",
-    "Ordenação dos clubes com atividade na época selecionada no topo do menu.",
-    "Imagem do Vieira mantida como logótipo dedicado.",
-    "Removido botão refresh e adicionado gesto de deslizar para atualizar."
+    "Atualização de versão para 2.1.",
+    "Filtro de competições por clube selecionado.",
+    "Mostra apenas competições onde o clube está inserido.",
+    "Tratamento de caso sem competições disponíveis na época."
   ]
 }
