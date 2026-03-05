@@ -1,13 +1,13 @@
 {
-  "versionCode": 223,
-  "versionName": "2.2.3",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.3/vsc.apk",
-  "apkSha256": "befeac817a22bb16b630f4dc6c5b1137a2cc4e0abba2d4f4998a9cb4a55d4243",
-  "releaseNotes": "Versão estável 2.2.3",
+  "versionCode": 224,
+  "versionName": "2.2.4",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.4/vsc.apk",
+  "apkSha256": "8c90d4127b83366955a28c77b0297ba1da13bbe65c28295b46181fab9f1ef0f6",
+  "releaseNotes": "Versão estável 2.2.4",
   "changelog": [
-    "Atualização de versão para 2.2.3.",
-    "Splash com imagem ainda maior.",
-    "Removido texto do título no splash.",
-    "Aproximação do texto 'A preparar aplicação...' ao splash."
+    "Atualização de versão para 2.2.4.",
+    "Seleção de equipa obrigatória após o splash.",
+    "Pesquisa de equipas no popup de seleção.",
+    "Remoção das equipas do menu lateral."
   ]
 }
