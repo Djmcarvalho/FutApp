@@ -1,12 +1,12 @@
 {
-  "versionCode": 221,
-  "versionName": "2.2.1",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.1/vsc.apk",
-  "apkSha256": "f176e720eebf4bb6830bec805bed1b682bb726fc4f29bd669fb4dca9ac144dfd",
-  "releaseNotes": "Versão estável 2.2.1",
+  "versionCode": 222,
+  "versionName": "2.2.2",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.2/vsc.apk",
+  "apkSha256": "73c25cca565a411ceb035c841a986fa52bc246122b140e340189c825c2bdc2f6",
+  "releaseNotes": "Versão estável 2.2.2",
   "changelog": [
-    "Atualização de versão para 2.2.1.",
-    "Substituição da imagem de splash e carregamento.",
-    "Correção da descrição acessível do logótipo."
+    "Atualização de versão para 2.2.2.",
+    "Imagem do splash aumentada para melhor destaque visual.",
+    "Ajustes de apresentação no ecrã inicial."
   ]
 }
