@@ -1,13 +1,13 @@
 ﻿{
-  "versionCode": 27,
-  "versionName": "1.5.1",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/1.5.1/vsc.apk",
-  "apkSha256": "87cfdeee4d56e4e67147a38fb426cd2136d47f53af1330cebcc5b64354cc5390",
-  "releaseNotes": "Versão estável 1.5.1",
+  "versionCode": 28,
+  "versionName": "1.5.2",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/1.5.2/vsc.apk",
+  "apkSha256": "2a487c3fd188108fb333e19c18c888e426f198c9471e7f10908079f445d85f99",
+  "releaseNotes": "Versão estável 1.5.2",
   "changelog": [
+    "Atualização de versão para 1.5.2.",
     "Melhoria no carregamento de épocas antigas.",
-    "Descoberta de competições mais robusta para variações da FPF.",
-    "Ajustes de retries e fallback para maior estabilidade."
+    "Descoberta de competições mais robusta para variações da FPF."
   ]
 }
 
