@@ -19,18 +19,19 @@ Servir ficheiros públicos para o sistema de atualização automática da app An
 - `dist/2.2/vsc.apk`
 - `dist/2.2.1/vsc.apk`
 - `dist/2.2.2/vsc.apk`
+- `dist/2.2.3/vsc.apk`
 
 ## Versão Atual
 
-- Versão publicada: `2.2.2`
-- APK: `dist/2.2.2/vsc.apk`
+- Versão publicada: `2.2.3`
+- APK: `dist/2.2.3/vsc.apk`
 
 ## URLs Públicas
 
 - Manifesto:
   - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/update/update.json`
-- APK 2.2.2:
-  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.2/vsc.apk`
+- APK 2.2.3:
+  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.3/vsc.apk`
 
 ## Processo de Publicação
 
