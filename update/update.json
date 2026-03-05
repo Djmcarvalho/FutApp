@@ -1,13 +1,13 @@
 ﻿{
-  "versionCode": 30,
-  "versionName": "1.5.4",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/1.5.4/vsc.apk",
-  "apkSha256": "b97d1ee3d88cea0a12c58b23c4d6418d3b196f03b87f4bdc776c0ce0c415c53c",
-  "releaseNotes": "Versão estável 1.5.4",
+  "versionCode": 31,
+  "versionName": "1.5.5",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/1.5.5/vsc.apk",
+  "apkSha256": "a175b47fd5c58663ee93dc86d2c84e9439a6c8b77371df8318267cb2f6aef06f",
+  "releaseNotes": "Versão estável 1.5.5",
   "changelog": [
-    "Atualização de versão para 1.5.4.",
-    "Melhoria da verificação automática de atualizações no arranque e no regresso à app.",
-    "Épocas limitadas de 2019-2020 em diante para maior estabilidade."
+    "Atualização de versão para 1.5.5.",
+    "Novo splash screen animado com logótipo no arranque.",
+    "Melhoria da verificação automática de atualizações no arranque e no regresso à app."
   ]
 }
 
