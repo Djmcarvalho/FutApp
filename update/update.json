@@ -1,13 +1,13 @@
 ﻿{
-    "versionCode":  321,
-    "versionName":  "3.2.1",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.1/myteam.apk",
-    "apkSha256":  "30FF969D21C37ADBFD542B05B78B94A4D305FD9C2AC82245D6156586B7B665FE",
-    "releaseNotes":  "Melhoria temporária para troca rápida de código da equipa",
+    "versionCode":  322,
+    "versionName":  "3.2.2",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.2/myteam.apk",
+    "apkSha256":  "33D8A18B0C9B40A9C36C49B342D60B6ED6CF4A11232E0E64EB8A51C22C0E637C",
+    "releaseNotes":  "Limpeza da base de clubes para futebol ativo",
     "changelog":  [
-                      "Atualização para 3.2.1.",
-                      "Hotspot invisível no canto superior direito para alterar o código da equipa.",
-                      "Troca imediata da equipa ativa após validação do novo código.",
-                      "Nova atribuição de códigos numéricos de 5 dígitos para todos os clubes."
+                      "Atualização para 3.2.2.",
+                      "Lista de clubes filtrada para manter apenas clubes de futebol ativos.",
+                      "Removidos clubes desativados e clubes de outras modalidades.",
+                      "Melhoria da coerência na seleção de clubes da aplicação."
                   ]
 }
