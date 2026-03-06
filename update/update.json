@@ -1,12 +1,13 @@
-{
-  "versionCode": 311,
-  "versionName": "3.1.1",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.1.1/myteam.apk",
-  "apkSha256": "746D7A6F9CC9D46C38081DA528E981FBD5A1572F4283D79EC77C72A60C046209",
-  "releaseNotes": "Correção de troca de competição",
-  "changelog": [
-    "Atualização para 3.1.1.",
-    "Correção: ao selecionar outra competição, os dados passam a atualizar corretamente.",
-    "Mantém cache local e sincronização em background sem regressões."
-  ]
+﻿{
+    "versionCode":  320,
+    "versionName":  "3.2",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2/myteam.apk",
+    "apkSha256":  "68BCC022A3434EE913DACBB0B6E7E7A47A6A719D215DAD0764860FB105EE0BEC",
+    "releaseNotes":  "Ativação comercial por código",
+    "changelog":  [
+                      "Atualização para 3.2.",
+                      "Ativação na primeira abertura com código por equipa.",
+                      "Licença vinculada ao dispositivo com revalidação em background.",
+                      "Códigos associados a todas as equipas do catálogo AF Braga."
+                  ]
 }
