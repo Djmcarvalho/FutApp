@@ -1,12 +1,12 @@
 {
-    "versionCode":  326,
-    "versionName":  "3.2.6",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.6/myteam.apk",
-    "apkSha256":  "999FDA783F14EBEE5AEFC7EB9AFDEF01FADC9220413F1179B075EFAC0A5C576D",
-    "releaseNotes":  "Correcao de branding e logotipos dos clubes",
+    "versionCode":  327,
+    "versionName":  "3.2.7",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.7/myteam.apk",
+    "apkSha256":  "C6820648CE76CC4D6A44F36B5456C250FC720E993A2777EA375AA66FB78353A7",
+    "releaseNotes":  "Novo splash com video kickoff2 e proporcao adaptada a tablet",
     "changelog":  [
-                      "Atualizacao para 3.2.6.",
-                      "Restaurada a apresentacao dos logotipos reais dos clubes.",
-                      "Logotipo KickOff mantido apenas no ecra de carregamento."
+                      "Atualizacao para 3.2.7.",
+                      "Splash atualizado com o video kickoff2.",
+                      "Reproducao do splash com proporcao correta em tablet e telemovel."
                   ]
 }
