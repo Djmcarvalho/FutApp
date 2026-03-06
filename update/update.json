@@ -1,13 +1,13 @@
 ﻿{
-    "versionCode":  320,
-    "versionName":  "3.2",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2/myteam.apk",
-    "apkSha256":  "68BCC022A3434EE913DACBB0B6E7E7A47A6A719D215DAD0764860FB105EE0BEC",
-    "releaseNotes":  "Ativação comercial por código",
+    "versionCode":  321,
+    "versionName":  "3.2.1",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.1/myteam.apk",
+    "apkSha256":  "30FF969D21C37ADBFD542B05B78B94A4D305FD9C2AC82245D6156586B7B665FE",
+    "releaseNotes":  "Melhoria temporária para troca rápida de código da equipa",
     "changelog":  [
-                      "Atualização para 3.2.",
-                      "Ativação na primeira abertura com código por equipa.",
-                      "Licença vinculada ao dispositivo com revalidação em background.",
-                      "Códigos associados a todas as equipas do catálogo AF Braga."
+                      "Atualização para 3.2.1.",
+                      "Hotspot invisível no canto superior direito para alterar o código da equipa.",
+                      "Troca imediata da equipa ativa após validação do novo código.",
+                      "Nova atribuição de códigos numéricos de 5 dígitos para todos os clubes."
                   ]
 }
