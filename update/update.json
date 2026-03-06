@@ -1,12 +1,13 @@
 {
-  "versionCode": 227,
-  "versionName": "2.2.7",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.7/vsc.apk",
-  "apkSha256": "29BEE48D16EBCC88A29BF67084A98D4275EC82056C600291731210E1ACC34AE9",
-  "releaseNotes": "Vers\u00e3o est\u00e1vel 2.2.7",
+  "versionCode": 300,
+  "versionName": "3.0",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.0/vsc.apk",
+  "apkSha256": "1207A184016AEF0262BC71FB82639DFDE5980F55B3BD22FF4376B1E68515958A",
+  "releaseNotes": "Vers\u00e3o est\u00e1vel 3.0",
   "changelog": [
-    "Atualiza\u00e7\u00e3o de vers\u00e3o para 2.2.7.",
-    "Menu com grupo \"Competi\u00e7\u00f5es\" corrigido e novamente vis\u00edvel.",
-    "Etiqueta principal atualizada para \"Competi\u00e7\u00e3o Selecionada\"."
+    "Atualiza\u00e7\u00e3o de vers\u00e3o para 3.0.",
+    "Nova base de dados local SQLite (Room) para snapshots dos calend\u00e1rios.",
+    "Abertura da app com dados da base local para maior fluidez.",
+    "Sincroniza\u00e7\u00e3o em background com a FPF e atualiza\u00e7\u00e3o autom\u00e1tica da base."
   ]
 }
