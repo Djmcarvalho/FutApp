@@ -1,13 +1,12 @@
 ﻿{
-    "versionCode":  323,
-    "versionName":  "3.2.3",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.3/myteam.apk",
-    "apkSha256":  "0BCB05727362AE35A7765E563805A5CC3D912A4138ECAA685B459A1F50477A15",
-    "releaseNotes":  "Rebranding KickOff com novo splash em vídeo e novo logo",
+    "versionCode":  324,
+    "versionName":  "3.2.4",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.4/myteam.apk",
+    "apkSha256":  "5B45BF7BBA2BB92A53E358156E672472761FB68E3C772A63E813574B17ED255F",
+    "releaseNotes":  "Correção da imagem do Vieira e remoção do logo sobreposto no splash",
     "changelog":  [
-                      "Atualização para 3.2.3.",
-                      "Aplicação renomeada para KickOff.",
-                      "Splash de entrada com vídeo otimizado e fallback para arranque fluido.",
-                      "Logo KickOff aplicado nos ícones e ecrãs de carregamento."
+                      "Atualização para 3.2.4.",
+                      "Reposta a imagem original do Vieira Sport Clube.",
+                      "Removida sobreposição do logo no ecrã de entrada com vídeo."
                   ]
 }
