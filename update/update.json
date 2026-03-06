@@ -1,12 +1,13 @@
 {
-    "versionCode":  327,
-    "versionName":  "3.2.7",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.7/myteam.apk",
-    "apkSha256":  "12356C8D66562B77CE0FE26024017A3CDCD39E80C2AED8237892DB819777DA91",
-    "releaseNotes":  "Novo splash com video kickoff2 e proporcao adaptada a tablet",
+    "versionCode":  328,
+    "versionName":  "3.2.8",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.8/myteam.apk",
+    "apkSha256":  "C612994488C4911A55BEDC370419C996751291381606FC636519333922A4BB08",
+    "releaseNotes":  "Carregamento com nova imagem e atualizacao por dados novos",
     "changelog":  [
-                      "Atualizacao para 3.2.7.",
-                      "Splash atualizado com o video kickoff2.",
-                      "Reproducao do splash com proporcao correta em tablet e telemovel."
+                      "Atualizacao para 3.2.8.",
+                      "Imagem de carregamento dos dados substituida pela imagem do anexo.",
+                      "A app mostra primeiro dados da base local e so avisa quando existem dados novos da FPF.",
+                      "Nova janela com botao Atualizar para aplicar os dados novos."
                   ]
 }
