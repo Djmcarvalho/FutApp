@@ -1,13 +1,13 @@
 ﻿{
-    "versionCode":  322,
-    "versionName":  "3.2.2",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.2/myteam.apk",
-    "apkSha256":  "33D8A18B0C9B40A9C36C49B342D60B6ED6CF4A11232E0E64EB8A51C22C0E637C",
-    "releaseNotes":  "Limpeza da base de clubes para futebol ativo",
+    "versionCode":  323,
+    "versionName":  "3.2.3",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.3/myteam.apk",
+    "apkSha256":  "0BCB05727362AE35A7765E563805A5CC3D912A4138ECAA685B459A1F50477A15",
+    "releaseNotes":  "Rebranding KickOff com novo splash em vídeo e novo logo",
     "changelog":  [
-                      "Atualização para 3.2.2.",
-                      "Lista de clubes filtrada para manter apenas clubes de futebol ativos.",
-                      "Removidos clubes desativados e clubes de outras modalidades.",
-                      "Melhoria da coerência na seleção de clubes da aplicação."
+                      "Atualização para 3.2.3.",
+                      "Aplicação renomeada para KickOff.",
+                      "Splash de entrada com vídeo otimizado e fallback para arranque fluido.",
+                      "Logo KickOff aplicado nos ícones e ecrãs de carregamento."
                   ]
 }
