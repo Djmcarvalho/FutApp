@@ -1,13 +1,12 @@
 {
-  "versionCode": 226,
-  "versionName": "2.2.6",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.6/vsc.apk",
-  "apkSha256": "F91A5E6D9A39067682D65A47544D3DAEB8487CBA69A329EF9FABBCA196BDFAA5",
-  "releaseNotes": "Vers\u00e3o est\u00e1vel 2.2.6",
+  "versionCode": 227,
+  "versionName": "2.2.7",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.7/vsc.apk",
+  "apkSha256": "29BEE48D16EBCC88A29BF67084A98D4275EC82056C600291731210E1ACC34AE9",
+  "releaseNotes": "Vers\u00e3o est\u00e1vel 2.2.7",
   "changelog": [
-    "Atualiza\u00e7\u00e3o de vers\u00e3o para 2.2.6.",
-    "Texto alterado para \"Competi\u00e7\u00e3o Selecionada\" na p\u00e1gina principal.",
-    "Grupo \"Forma\u00e7\u00e3o\" alterado para \"Competi\u00e7\u00f5es\" no menu.",
-    "Splash e logo de carregamento aumentados e alinhados no mesmo tamanho."
+    "Atualiza\u00e7\u00e3o de vers\u00e3o para 2.2.7.",
+    "Menu com grupo \"Competi\u00e7\u00f5es\" corrigido e novamente vis\u00edvel.",
+    "Etiqueta principal atualizada para \"Competi\u00e7\u00e3o Selecionada\"."
   ]
 }
