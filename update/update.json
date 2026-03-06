@@ -1,12 +1,12 @@
 {
-    "versionCode":  324,
-    "versionName":  "3.2.4",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.4/myteam.apk",
-    "apkSha256":  "5B45BF7BBA2BB92A53E358156E672472761FB68E3C772A63E813574B17ED255F",
-    "releaseNotes":  "Correção da imagem do Vieira e remoção do logo sobreposto no splash",
+    "versionCode":  325,
+    "versionName":  "3.2.5",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.5/myteam.apk",
+    "apkSha256":  "C75AB509F78E6D225FA42A79E88F4E315336109F6331B5A4F3F6E8DBDE51FF6F",
+    "releaseNotes":  "Atualização de versão com ajustes de branding",
     "changelog":  [
-                      "Atualização para 3.2.4.",
-                      "Reposta a imagem original do Vieira Sport Clube.",
-                      "Removida sobreposição do logo no ecrã de entrada com vídeo."
+                      "Atualização para 3.2.5.",
+                      "KickOff definido como logótipo padrão da aplicação.",
+                      "Logótipo do Vieira SC mantido apenas para o clube Vieira."
                   ]
 }
