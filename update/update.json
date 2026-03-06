@@ -1,12 +1,12 @@
 {
-    "versionCode":  325,
-    "versionName":  "3.2.5",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.5/myteam.apk",
-    "apkSha256":  "7D5AA995388433FCD10904375380A4E4D4523A80EC802BF5253D6A538A1731EE",
-    "releaseNotes":  "Atualização de versão com ajustes de branding",
+    "versionCode":  326,
+    "versionName":  "3.2.6",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.6/myteam.apk",
+    "apkSha256":  "999FDA783F14EBEE5AEFC7EB9AFDEF01FADC9220413F1179B075EFAC0A5C576D",
+    "releaseNotes":  "Correcao de branding e logotipos dos clubes",
     "changelog":  [
-                      "Atualização para 3.2.5.",
-                      "KickOff definido como logótipo padrão da aplicação.",
-                      "Logótipo do Vieira SC mantido apenas para o clube Vieira."
+                      "Atualizacao para 3.2.6.",
+                      "Restaurada a apresentacao dos logotipos reais dos clubes.",
+                      "Logotipo KickOff mantido apenas no ecra de carregamento."
                   ]
 }
