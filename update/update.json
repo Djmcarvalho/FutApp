@@ -1,12 +1,13 @@
 {
-  "versionCode": 225,
-  "versionName": "2.2.5",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.5/vsc.apk",
-  "apkSha256": "2F57E2E32030CE44B8151035E2DC04BF06CF1D69A7B4A6ECA82EDA8144E0C3CA",
-  "releaseNotes": "Vers\u00e3o est\u00e1vel 2.2.5",
+  "versionCode": 226,
+  "versionName": "2.2.6",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.6/vsc.apk",
+  "apkSha256": "F91A5E6D9A39067682D65A47544D3DAEB8487CBA69A329EF9FABBCA196BDFAA5",
+  "releaseNotes": "Vers\u00e3o est\u00e1vel 2.2.6",
   "changelog": [
-    "Atualiza\u00e7\u00e3o de vers\u00e3o para 2.2.5.",
-    "Pesquisa de equipa em todas as competi\u00e7\u00f5es da AF Braga (\u00e9poca selecionada).",
-    "Filtro de competi\u00e7\u00f5es mais fluido e com menor lat\u00eancia no carregamento inicial."
+    "Atualiza\u00e7\u00e3o de vers\u00e3o para 2.2.6.",
+    "Texto alterado para \"Competi\u00e7\u00e3o Selecionada\" na p\u00e1gina principal.",
+    "Grupo \"Forma\u00e7\u00e3o\" alterado para \"Competi\u00e7\u00f5es\" no menu.",
+    "Splash e logo de carregamento aumentados e alinhados no mesmo tamanho."
   ]
 }
