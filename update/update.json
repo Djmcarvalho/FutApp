@@ -1,14 +1,14 @@
 {
-    "versionCode":  336,
-    "versionName":  "3.3.6",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.6/kickoff.apk",
-    "apkSha256":  "E3C60CD204AECD2054627BFC7A088F075BFD6FC692206FCD1E926DE16347E062",
-    "releaseNotes":  "Melhora a persistência local e passa a comparar alterações da FPF em background antes de pedir atualização dos dados.",
-    "changelog":  [
-                      "Atualização para 3.3.6.",
-                      "A app abre com os dados guardados em SQLite e mantém o catálogo local de competições.",
-                      "A atualização manual grava os dados e o catálogo na base local.",
-                      "A consulta à FPF passa a correr em background e só avisa se houver diferenças reais.",
-                      "O aviso de atualização de dados aparece no máximo uma vez por abertura da app."
-                  ]
+  "versionCode": 337,
+  "versionName": "3.3.7",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.7/kickoff.apk",
+  "apkSha256": "CD29FE088BFEC37F560E9C8FD3BC5CE0288F59E11137D857AAADC3AFEB3E0297",
+  "releaseNotes": "Corrige o encoding dos di\u00e1logos da aplica\u00e7\u00e3o e estabiliza as mensagens vis\u00edveis ao utilizador.",
+  "changelog": [
+    "Atualiza\u00e7\u00e3o para 3.3.7.",
+    "Corrigido o texto das janelas de verifica\u00e7\u00e3o de atualiza\u00e7\u00e3o.",
+    "Corrigido o texto dos di\u00e1logos de ativa\u00e7\u00e3o e altera\u00e7\u00e3o de c\u00f3digo.",
+    "Corrigidas as mensagens de instala\u00e7\u00e3o da APK e permiss\u00f5es.",
+    "Mantida a l\u00f3gica de atualiza\u00e7\u00e3o e sincroniza\u00e7\u00e3o sem altera\u00e7\u00f5es funcionais."
+  ]
 }
