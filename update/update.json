@@ -1,13 +1,13 @@
 ﻿{
-    "versionCode":  341,
-    "versionName":  "3.4.1",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.1/kickoff.apk",
-    "apkSha256":  "357CEAAF890DC028F58F22A29192F2DEAF0352058AA2B71F6C7562914C9643DA",
-    "releaseNotes":  "Corrige a falha ao abrir os di\u00e1logos de verificar atualiza\u00e7\u00e3o e ver changelog.",
+    "versionCode":  342,
+    "versionName":  "3.4.2",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.2/kickoff.apk",
+    "apkSha256":  "3B151F746E55CF8B2407643C693E38734741FDC361E12E749C176C1509C980F5",
+    "releaseNotes":  "Estabiliza os diálogos de atualização e changelog e elimina o fecho inesperado da app.",
     "changelog":  [
-                      "Atualiza\u00e7\u00e3o para 3.4.1.",
-                      "Corrigido o crash ao abrir Verificar atualiza\u00e7\u00e3o.",
-                      "Corrigido o crash ao abrir Ver changelog.",
-                      "Mantido o tema visual dos di\u00e1logos sem usar cabe\u00e7alho custom inst\u00e1vel."
+                      "Atualização para 3.4.2.",
+                      "Os diálogos Verificar atualização e Ver changelog voltaram ao fluxo Material estável.",
+                      "Removido o overlay custom que introduzia fechos inesperados em alguns dispositivos.",
+                      "Mantida a lógica de atualização OTA sem alterações funcionais."
                   ]
 }
