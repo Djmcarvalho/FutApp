@@ -1,13 +1,13 @@
 {
-    "versionCode": 333,
-    "versionName": "3.3.3",
-    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.3/kickoff.apk",
-    "apkSha256": "FCB0C3759803D59BF7D290C93B932E58760ABC3EB128FBACD96F326DFCA4697D",
-    "releaseNotes": "Limpeza interna com compatibilidade de cache e base local KickOff",
+    "versionCode": 334,
+    "versionName": "3.3.4",
+    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.4/kickoff.apk",
+    "apkSha256": "9A36B4454EA8CD066E5942F9794B7BBEA46208B059B0AB78B4AE97CD0FAB4F23",
+    "releaseNotes": "Correção do crash nas janelas de atualização e diálogo",
     "changelog": [
-        "Atualização para 3.3.3.",
-        "Serviço FPF passou a usar API interna genérica orientada ao clube ativo.",
-        "Migração automática da base local para kickoff_local_cache.db com fallback seguro.",
-        "Compatibilidade mantida com cache e campos serializados antigos."
+        "Atualização para 3.3.4.",
+        "Substituído o uso de AlertDialog.Builder por MaterialAlertDialogBuilder.",
+        "Removido o tema genérico alertDialogTheme para evitar conflito entre AppCompat e Material.",
+        "Correção do crash ao abrir a janela de atualização em alguns dispositivos Android."
     ]
 }
