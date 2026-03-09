@@ -1,14 +1,13 @@
 {
-  "versionCode": 337,
-  "versionName": "3.3.7",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.7/kickoff.apk",
-  "apkSha256": "CD29FE088BFEC37F560E9C8FD3BC5CE0288F59E11137D857AAADC3AFEB3E0297",
-  "releaseNotes": "Corrige o encoding dos di\u00e1logos da aplica\u00e7\u00e3o e estabiliza as mensagens vis\u00edveis ao utilizador.",
+  "versionCode": 338,
+  "versionName": "3.3.8",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.8/kickoff.apk",
+  "apkSha256": "02B303349862AB525CE1C32D3AAF4831C41798CA7549023D87A9C2440F6DD97A",
+  "releaseNotes": "Limpeza final de encoding no projeto e remo\u00e7\u00e3o definitiva de texto corrompido do c\u00f3digo-fonte vis\u00edvel.",
   "changelog": [
-    "Atualiza\u00e7\u00e3o para 3.3.7.",
-    "Corrigido o texto das janelas de verifica\u00e7\u00e3o de atualiza\u00e7\u00e3o.",
-    "Corrigido o texto dos di\u00e1logos de ativa\u00e7\u00e3o e altera\u00e7\u00e3o de c\u00f3digo.",
-    "Corrigidas as mensagens de instala\u00e7\u00e3o da APK e permiss\u00f5es.",
-    "Mantida a l\u00f3gica de atualiza\u00e7\u00e3o e sincroniza\u00e7\u00e3o sem altera\u00e7\u00f5es funcionais."
+    "Atualiza\u00e7\u00e3o para 3.3.8.",
+    "Removidas as \u00faltimas sequ\u00eancias de texto corrompido do projeto versionado.",
+    "Mantida a compatibilidade com HTML mal codificado da FPF usando escapes Unicode seguros.",
+    "Sem altera\u00e7\u00f5es funcionais no comportamento da app."
   ]
 }
