@@ -1,13 +1,13 @@
 {
-    "versionCode": 334,
-    "versionName": "3.3.4",
-    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.4/kickoff.apk",
-    "apkSha256": "9A36B4454EA8CD066E5942F9794B7BBEA46208B059B0AB78B4AE97CD0FAB4F23",
-    "releaseNotes": "Correção do crash nas janelas de atualização e diálogo",
+    "versionCode": 335,
+    "versionName": "3.3.5",
+    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.5/kickoff.apk",
+    "apkSha256": "8EE133A90751ECE6E640E3487A0904A6B2AF9F75F3B6A59C42963302664BD1AB",
+    "releaseNotes": "Estabilização final das janelas Material para evitar crash ao abrir diálogos",
     "changelog": [
-        "Atualização para 3.3.4.",
-        "Substituído o uso de AlertDialog.Builder por MaterialAlertDialogBuilder.",
-        "Removido o tema genérico alertDialogTheme para evitar conflito entre AppCompat e Material.",
-        "Correção do crash ao abrir a janela de atualização em alguns dispositivos Android."
+        "Atualização para 3.3.5.",
+        "Removido o overlay custom de diálogo do tema base.",
+        "Janelas da app passam a usar o diálogo Material padrão para máxima compatibilidade.",
+        "Correção adicional para encerramento inesperado ao abrir verificações e avisos."
     ]
 }
