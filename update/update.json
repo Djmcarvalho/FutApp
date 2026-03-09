@@ -1,13 +1,13 @@
 {
-    "versionCode":  332,
-    "versionName":  "3.3.2",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.2/kickoff.apk",
-    "apkSha256":  "A1D21D5BFB35088F10ECBCE8BBC063C83276F60CD5E7B28D0B9B5DA57C860F04",
-    "releaseNotes":  "Documentação e pipeline CI alinhados com KickOff",
-    "changelog":  [
-                      "Atualização para 3.3.2.",
-                      "README principal reescrito e alinhado com o estado atual da app.",
-                      "README de ativação normalizado em PT-PT e com exemplos atuais.",
-                      "Pipeline GitHub Actions corrigido para publicar kickoff.apk."
-                  ]
+    "versionCode": 333,
+    "versionName": "3.3.3",
+    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.3/kickoff.apk",
+    "apkSha256": "FCB0C3759803D59BF7D290C93B932E58760ABC3EB128FBACD96F326DFCA4697D",
+    "releaseNotes": "Limpeza interna com compatibilidade de cache e base local KickOff",
+    "changelog": [
+        "Atualização para 3.3.3.",
+        "Serviço FPF passou a usar API interna genérica orientada ao clube ativo.",
+        "Migração automática da base local para kickoff_local_cache.db com fallback seguro.",
+        "Compatibilidade mantida com cache e campos serializados antigos."
+    ]
 }
