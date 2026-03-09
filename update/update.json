@@ -1,13 +1,13 @@
 ﻿{
-    "versionCode":  342,
-    "versionName":  "3.4.2",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.2/kickoff.apk",
-    "apkSha256":  "3B151F746E55CF8B2407643C693E38734741FDC361E12E749C176C1509C980F5",
-    "releaseNotes":  "Estabiliza os diálogos de atualização e changelog e elimina o fecho inesperado da app.",
+    "versionCode":  343,
+    "versionName":  "3.4.3",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.3/kickoff.apk",
+    "apkSha256":  "83785537A54FACB5FC3DD096E2D3D4300DAF0F6C2994EE4E3D025D89A9B87A16",
+    "releaseNotes":  "Melhora o aspeto dos diálogos mantendo o caminho Material estável da aplicação.",
     "changelog":  [
-                      "Atualização para 3.4.2.",
-                      "Os diálogos Verificar atualização e Ver changelog voltaram ao fluxo Material estável.",
-                      "Removido o overlay custom que introduzia fechos inesperados em alguns dispositivos.",
-                      "Mantida a lógica de atualização OTA sem alterações funcionais."
+                      "Atualização para 3.4.3.",
+                      "Os diálogos voltaram a usar o tema visual KickOff com o construtor Material estável.",
+                      "Mantido o aspeto alinhado com a aplicação sem reintroduzir o cabeçalho custom instável.",
+                      "Sem alterações na lógica de atualização OTA."
                   ]
 }
