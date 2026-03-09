@@ -1,13 +1,13 @@
 {
-  "versionCode": 339,
-  "versionName": "3.3.9",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.9/kickoff.apk",
-  "apkSha256": "750326A2C57138C3ADFF5AA5F04DC80CBF504E359370B239FD0BA54CF4A0523B",
-  "releaseNotes": "Evita avisos repetidos de atualiza\u00e7\u00e3o de dados quando os mesmos dados remotos j\u00e1 tinham sido sinalizados anteriormente.",
+  "versionCode": 340,
+  "versionName": "3.4.0",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.0/kickoff.apk",
+  "apkSha256": "469DC4EB47176B6AB9E2108B707FB3ABCF8F57A97EBA65AC6E3DE23A558E6C18",
+  "releaseNotes": "Renova o visual das janelas de aviso e atualiza\u00e7\u00e3o para ficarem alinhadas com o estilo da aplica\u00e7\u00e3o.",
   "changelog": [
-    "Atualiza\u00e7\u00e3o para 3.3.9.",
-    "O aviso de atualizar dados deixa de reaparecer ao abrir e fechar a app sem mudan\u00e7as reais.",
-    "A app guarda a assinatura do \u00faltimo aviso mostrado por clube, \u00e9poca e competi\u00e7\u00e3o.",
-    "A dete\u00e7\u00e3o de altera\u00e7\u00f5es em background ficou mais est\u00e1vel e sem falsos positivos por ordem da lista de competi\u00e7\u00f5es."
+    "Atualiza\u00e7\u00e3o para 3.4.0.",
+    "Novo cabe\u00e7alho visual nos di\u00e1logos com logo, barra de destaque e etiqueta contextual.",
+    "Janelas de atualiza\u00e7\u00e3o, changelog, erros, permiss\u00f5es e avisos ficaram visualmente unificadas.",
+    "Mantido o comportamento funcional dos avisos existentes."
   ]
 }
