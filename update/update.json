@@ -1,13 +1,13 @@
 {
-    "versionCode":  328,
-    "versionName":  "3.2.8",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.2.8/myteam.apk",
-    "apkSha256":  "C612994488C4911A55BEDC370419C996751291381606FC636519333922A4BB08",
-    "releaseNotes":  "Carregamento com nova imagem e atualizacao por dados novos",
+    "versionCode":  332,
+    "versionName":  "3.3.2",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.2/kickoff.apk",
+    "apkSha256":  "A1D21D5BFB35088F10ECBCE8BBC063C83276F60CD5E7B28D0B9B5DA57C860F04",
+    "releaseNotes":  "Documentação e pipeline CI alinhados com KickOff",
     "changelog":  [
-                      "Atualizacao para 3.2.8.",
-                      "Imagem de carregamento dos dados substituida pela imagem do anexo.",
-                      "A app mostra primeiro dados da base local e so avisa quando existem dados novos da FPF.",
-                      "Nova janela com botao Atualizar para aplicar os dados novos."
+                      "Atualização para 3.3.2.",
+                      "README principal reescrito e alinhado com o estado atual da app.",
+                      "README de ativação normalizado em PT-PT e com exemplos atuais.",
+                      "Pipeline GitHub Actions corrigido para publicar kickoff.apk."
                   ]
 }
