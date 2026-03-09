@@ -1,13 +1,14 @@
 {
-    "versionCode": 335,
-    "versionName": "3.3.5",
-    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.5/kickoff.apk",
-    "apkSha256": "8EE133A90751ECE6E640E3487A0904A6B2AF9F75F3B6A59C42963302664BD1AB",
-    "releaseNotes": "Estabilização final das janelas Material para evitar crash ao abrir diálogos",
-    "changelog": [
-        "Atualização para 3.3.5.",
-        "Removido o overlay custom de diálogo do tema base.",
-        "Janelas da app passam a usar o diálogo Material padrão para máxima compatibilidade.",
-        "Correção adicional para encerramento inesperado ao abrir verificações e avisos."
-    ]
+    "versionCode":  336,
+    "versionName":  "3.3.6",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.3.6/kickoff.apk",
+    "apkSha256":  "E3C60CD204AECD2054627BFC7A088F075BFD6FC692206FCD1E926DE16347E062",
+    "releaseNotes":  "Melhora a persistência local e passa a comparar alterações da FPF em background antes de pedir atualização dos dados.",
+    "changelog":  [
+                      "Atualização para 3.3.6.",
+                      "A app abre com os dados guardados em SQLite e mantém o catálogo local de competições.",
+                      "A atualização manual grava os dados e o catálogo na base local.",
+                      "A consulta à FPF passa a correr em background e só avisa se houver diferenças reais.",
+                      "O aviso de atualização de dados aparece no máximo uma vez por abertura da app."
+                  ]
 }
