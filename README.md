@@ -1,44 +1,44 @@
 ﻿# FutApp (Canal Público de Atualizações)
 
-Este repositório é o canal público de distribuição da aplicação **Vieira Sport Clube**.
+Este repositório é o canal público de distribuição da aplicação **KickOff**.
 
 ## Objetivo
 
 Servir ficheiros públicos para o sistema de atualização automática da app Android:
 
 - `update/update.json` (manifesto de atualização)
-- `dist/<versao>/vsc.apk` (APK da versão)
+- `dist/<versao>/kickoff.apk` (APK da versão)
 
 ## Estrutura
 
 - `update/update.json`
-- `dist/1.5.1/vsc.apk`
-- `dist/1.5.2/vsc.apk`
-- `dist/2.0/vsc.apk`
-- `dist/2.1/vsc.apk`
-- `dist/2.2/vsc.apk`
-- `dist/2.2.1/vsc.apk`
-- `dist/2.2.2/vsc.apk`
-- `dist/2.2.3/vsc.apk`
-- `dist/2.2.4/vsc.apk`
+- `dist/1.5.1/kickoff.apk`
+- `dist/1.5.2/kickoff.apk`
+- `dist/2.0/kickoff.apk`
+- `dist/2.1/kickoff.apk`
+- `dist/2.2/kickoff.apk`
+- `dist/2.2.1/kickoff.apk`
+- `dist/2.2.2/kickoff.apk`
+- `dist/2.2.3/kickoff.apk`
+- `dist/2.2.4/kickoff.apk`
 
 ## Versão Atual
 
-- Versão publicada: `2.2.4`
-- APK: `dist/2.2.4/vsc.apk`
+- Versão publicada: `3.4.6`
+- APK: `dist/3.4.6/kickoff.apk`
 
 ## URLs Públicas
 
 - Manifesto:
   - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/update/update.json`
-- APK 2.2.4:
-  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.4/vsc.apk`
+- APK 3.4.6:
+  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.4/kickoff.apk`
 
 ## Processo de Publicação
 
 1. Gerar a APK no repositório privado de desenvolvimento.
 2. Calcular SHA-256 da APK final.
-3. Copiar APK para `dist/<versao>/vsc.apk` neste repositório.
+3. Copiar APK para `dist/<versao>/kickoff.apk` neste repositório.
 4. Atualizar `update/update.json` com:
    - `versionCode`
    - `versionName`
@@ -58,3 +58,4 @@ Servir ficheiros públicos para o sistema de atualização automática da app An
 ## Nota
 
 O código-fonte principal da aplicação pode permanecer privado. A app consome apenas este repositório público para updates.
+
