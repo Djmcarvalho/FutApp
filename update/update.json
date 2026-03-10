@@ -1,13 +1,14 @@
 ﻿{
-    "versionCode": 346,
-    "versionName": "3.4.6",
-    "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.6/kickoff.apk",
-    "apkSha256": "F69C9BDCD89CE4E66F178B00AB98226EC508E55C4BEDB1880A2D51DFE108F5BE",
-    "releaseNotes": "Fase 2: modularização adicional da seleção de competições e ordenação de jogos.",
-    "changelog": [
-        "Atualização para 3.4.6.",
-        "Extraído FpfCompetitionSelector para reduzir acoplamento no FpfCalendarService.",
-        "Extraído FpfMatchOrdering com deduplicação, resolução de conflitos e ordenação.",
-        "Novos testes unitários para seleção de competições e ordenação de jogos."
-    ]
+    "versionCode":  347,
+    "versionName":  "3.4.7",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.7/kickoff.apk",
+    "apkSha256":  "F5D2360AA7F262FA7F2D9984A1C8D03BD4E684FF64ABB5D2086708A2450D9EB8",
+    "releaseNotes":  "Correção de encoding: deteção robusta de charset nas respostas FPF e normalização de texto na interface.",
+    "changelog":  [
+                      "Atualização para 3.4.7.",
+                      "Corrigido erro de encoding em nomes de competições (ex.: 2.ª Divisão).",
+                      "Leitura HTTP com deteção de charset (header/meta + fallback).",
+                      "Render aplica reparação de texto para evitar caracteres inválidos da cache antiga.",
+                      "Testes unitários reforçados para cenários de mojibake e charset legado."
+                  ]
 }

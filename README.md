@@ -12,27 +12,27 @@ Servir ficheiros públicos para o sistema de atualização automática da app An
 ## Estrutura
 
 - `update/update.json`
-- `dist/1.5.1/kickoff.apk`
-- `dist/1.5.2/kickoff.apk`
+- `dist/3.4.7/kickoff.apk`
+- `dist/3.4.7/kickoff.apk`
 - `dist/2.0/kickoff.apk`
 - `dist/2.1/kickoff.apk`
 - `dist/2.2/kickoff.apk`
-- `dist/2.2.1/kickoff.apk`
-- `dist/2.2.2/kickoff.apk`
-- `dist/2.2.3/kickoff.apk`
-- `dist/2.2.4/kickoff.apk`
+- `dist/3.4.7/kickoff.apk`
+- `dist/3.4.7/kickoff.apk`
+- `dist/3.4.7/kickoff.apk`
+- `dist/3.4.7/kickoff.apk`
 
 ## Versão Atual
 
-- Versão publicada: `3.4.6`
-- APK: `dist/3.4.6/kickoff.apk`
+- Versão publicada: `3.4.7`
+- APK: `dist/3.4.7/kickoff.apk`
 
 ## URLs Públicas
 
 - Manifesto:
   - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/update/update.json`
-- APK 3.4.6:
-  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/2.2.4/kickoff.apk`
+- APK 3.4.7:
+  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.7/kickoff.apk`
 
 ## Processo de Publicação
 
@@ -58,4 +58,5 @@ Servir ficheiros públicos para o sistema de atualização automática da app An
 ## Nota
 
 O código-fonte principal da aplicação pode permanecer privado. A app consome apenas este repositório público para updates.
+
 
