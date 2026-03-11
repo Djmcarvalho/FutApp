@@ -1,62 +1,30 @@
-﻿# FutApp (Canal Público de Atualizações)
+# FutApp (Canal Publico de Atualizacoes)
 
-Este repositório é o canal público de distribuição da aplicação **KickOff**.
+Repositorio publico usado pela app **KickOff** para distribuir atualizacoes OTA.
 
-## Objetivo
+## Conteudo publicado
 
-Servir ficheiros públicos para o sistema de atualização automática da app Android:
+- `update/update.json`: manifesto com a versao atual, URL da APK e SHA-256.
+- `dist/<versao>/kickoff.apk`: APK publica dessa versao.
 
-- `update/update.json` (manifesto de atualização)
-- `dist/<versao>/kickoff.apk` (APK da versão)
+## Versao atual
 
-## Estrutura
+- Versao publicada: `3.4.9`
+- APK: `dist/3.4.9/kickoff.apk`
+- Manifesto: `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/update/update.json`
+- APK publica: `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.9/kickoff.apk`
 
-- `update/update.json`
-- `dist/3.4.8/kickoff.apk`
-- `dist/3.4.7/kickoff.apk`
-- `dist/2.0/kickoff.apk`
-- `dist/2.1/kickoff.apk`
-- `dist/2.2/kickoff.apk`
-- `dist/3.4.7/kickoff.apk`
-- `dist/3.4.7/kickoff.apk`
-- `dist/3.4.7/kickoff.apk`
-- `dist/3.4.7/kickoff.apk`
+## Processo de publicacao
 
-## Versão Atual
-
-- Versão publicada: `3.4.8`
-- APK: `dist/3.4.8/kickoff.apk`
-
-## URLs Públicas
-
-- Manifesto:
-  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/update/update.json`
-- APK 3.4.8:
-  - `https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.8/kickoff.apk`
-
-## Processo de Publicação
-
-1. Gerar a APK no repositório privado de desenvolvimento.
-2. Calcular SHA-256 da APK final.
-3. Copiar APK para `dist/<versao>/kickoff.apk` neste repositório.
-4. Atualizar `update/update.json` com:
-   - `versionCode`
-   - `versionName`
-   - `apkUrl`
-   - `apkSha256`
-   - `releaseNotes`
-   - `changelog`
+1. Gerar a APK no repositorio principal.
+2. Calcular o SHA-256 da APK final.
+3. Copiar a APK para `dist/<versao>/kickoff.apk`.
+4. Atualizar `update/update.json`.
 5. Fazer commit e push no `main`.
-6. Validar as URLs públicas (`HTTP 200`).
+6. Validar as URLs publicas.
 
-## Segurança
+## Regras
 
-- Este repositório deve conter apenas artefactos públicos de atualização.
-- Não incluir tokens, credenciais, ficheiros internos ou dados sensíveis.
-- O SHA-256 no manifesto deve corresponder exatamente ao APK publicado.
-
-## Nota
-
-O código-fonte principal da aplicação pode permanecer privado. A app consome apenas este repositório público para updates.
-
-
+- Publicar apenas artefactos necessarios ao update.
+- Nao incluir credenciais, tokens ou ficheiros internos.
+- Manter o SHA-256 do manifesto alinhado com a APK publicada.

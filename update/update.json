@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  348,
-    "versionName":  "3.4.8",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.8/kickoff.apk",
-    "apkSha256":  "2A16B277FAF7F62869B4125C97CC28E4C01E8518A940B9985DD5DE97B27FF641",
-    "releaseNotes":  "Fase 3: extração da coordenação de sincronização, updates e ativação para componentes dedicados.",
+    "versionCode":  349,
+    "versionName":  "3.4.9",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.9/kickoff.apk",
+    "apkSha256":  "8833A9C022DE02B35989CFFA09B3CB68486AC045D8F42B7B029C1E60ED2D202A",
+    "releaseNotes":  "Fase 4: endurecimento final com limpeza de testes, simplificação de helpers e revisão de documentação OTA.",
     "changelog":  [
-                      "Atualização para 3.4.8.",
-                      "Fase 3 avançada com extração de CalendarSyncCoordinator.",
-                      "AppUpdateCoordinator passou a centralizar verificação e validação de updates.",
-                      "ActivationCoordinator passou a isolar o fluxo de ativação e refresh de licença.",
-                      "MainActivity ficou mais focada em interface e orquestração."
+                      "Atualização para 3.4.9.",
+                      "Fase 4 avançada com limpeza e endurecimento final.",
+                      "Teste de AppUpdateCoordinator reescrito com strings seguras em UTF-8.",
+                      "MainActivity simplificada em helpers de UI de baixo risco.",
+                      "README do canal OTA revisto e normalizado."
                   ]
 }
