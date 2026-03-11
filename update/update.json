@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  349,
-    "versionName":  "3.4.9",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.9/kickoff.apk",
-    "apkSha256":  "8833A9C022DE02B35989CFFA09B3CB68486AC045D8F42B7B029C1E60ED2D202A",
-    "releaseNotes":  "Fase 4: endurecimento final com limpeza de testes, simplificação de helpers e revisão de documentação OTA.",
+    "versionCode":  350,
+    "versionName":  "3.5.0",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.0/kickoff.apk",
+    "apkSha256":  "E130BEF2D48C2815A253FF0361241BEE4BEAD5C8B9EE6B7DA78C29BFE80B3521",
+    "releaseNotes":  "Fase 4 concluída com modularização da MainActivity, extração de serviços FPF e documentação alinhada com a arquitetura atual.",
     "changelog":  [
-                      "Atualização para 3.4.9.",
-                      "Fase 4 avançada com limpeza e endurecimento final.",
-                      "Teste de AppUpdateCoordinator reescrito com strings seguras em UTF-8.",
-                      "MainActivity simplificada em helpers de UI de baixo risco.",
-                      "README do canal OTA revisto e normalizado."
+                      "Atualização para 3.5.0.",
+                      "Fase 4 concluída.",
+                      "MainActivity modularizada com ViewModel e coordenadores dedicados.",
+                      "FpfCalendarService dividido com parser e gateway HTTP/cache.",
+                      "README alinhado com a arquitetura e fluxo atuais."
                   ]
 }
