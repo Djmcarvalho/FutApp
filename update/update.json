@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  347,
-    "versionName":  "3.4.7",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.7/kickoff.apk",
-    "apkSha256":  "F5D2360AA7F262FA7F2D9984A1C8D03BD4E684FF64ABB5D2086708A2450D9EB8",
-    "releaseNotes":  "Correção de encoding: deteção robusta de charset nas respostas FPF e normalização de texto na interface.",
+    "versionCode":  348,
+    "versionName":  "3.4.8",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.4.8/kickoff.apk",
+    "apkSha256":  "2A16B277FAF7F62869B4125C97CC28E4C01E8518A940B9985DD5DE97B27FF641",
+    "releaseNotes":  "Fase 3: extração da coordenação de sincronização, updates e ativação para componentes dedicados.",
     "changelog":  [
-                      "Atualização para 3.4.7.",
-                      "Corrigido erro de encoding em nomes de competições (ex.: 2.ª Divisão).",
-                      "Leitura HTTP com deteção de charset (header/meta + fallback).",
-                      "Render aplica reparação de texto para evitar caracteres inválidos da cache antiga.",
-                      "Testes unitários reforçados para cenários de mojibake e charset legado."
+                      "Atualização para 3.4.8.",
+                      "Fase 3 avançada com extração de CalendarSyncCoordinator.",
+                      "AppUpdateCoordinator passou a centralizar verificação e validação de updates.",
+                      "ActivationCoordinator passou a isolar o fluxo de ativação e refresh de licença.",
+                      "MainActivity ficou mais focada em interface e orquestração."
                   ]
 }
