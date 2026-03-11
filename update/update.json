@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  352,
-    "versionName":  "3.5.2",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.2/kickoff.apk",
-    "apkSha256":  "9B54C52D4C8EBEBD668325DEC75CE4CB23A82A5D0F37E9A956230F9AB207F922",
-    "releaseNotes":  "Correção funcional: sincronização silenciosa em background agora persiste os dados novos e atualiza a vista atual sem depender de refresh manual.",
+    "versionCode":  353,
+    "versionName":  "3.5.3",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.3/kickoff.apk",
+    "apkSha256":  "19FEA08A1CB104068EC8D9D06112B5996D9B63AB12AA04F8A1997A9FAA70CBCA",
+    "releaseNotes":  "Limpeza técnica: removido o fluxo obsoleto de aviso de dados novos, mantendo apenas a sincronização silenciosa em background.",
     "changelog":  [
-                      "Atualização para 3.5.2.",
-                      "Sincronização em background passa a guardar automaticamente catálogo e calendário novos.",
-                      "A vista atual é atualizada silenciosamente quando a FPF devolve dados diferentes.",
-                      "Menor dependência do refresh manual para manter a base local coerente.",
-                      "Ajustes no fluxo de deteção de alterações reais entre SQLite e FPF."
+                      "Atualização para 3.5.3.",
+                      "Removido o fluxo antigo de aviso de dados novos.",
+                      "Simplificado o estado da MainActivity, MainViewModel e MainUiState.",
+                      "Eliminado código morto associado ao store de prompts de refresh.",
+                      "Validação de build e testes mantida após a limpeza."
                   ]
 }
