@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  354,
-    "versionName":  "3.5.4",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.4/kickoff.apk",
-    "apkSha256":  "ADEF878234331F088CE82B4EB33CAA30B58AF68D52E9B7D5341F7E4E2EF3E661",
-    "releaseNotes":  "Otimização de carregamento: a app passa a reutilizar o catálogo local de competições em SQLite, reduzindo descoberta repetida na FPF quando já existem dados válidos.",
+    "versionCode":  355,
+    "versionName":  "3.5.5",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.5/kickoff.apk",
+    "apkSha256":  "4A1204F71469543D9FB55A9B867397F16490D3E63988814442DE066C39238ED0",
+    "releaseNotes":  "Reforço de testes: novo teste de integração ao CalendarSyncCoordinator para proteger o uso do catálogo local de competições guardado em SQLite.",
     "changelog":  [
-                      "Atualização para 3.5.4.",
-                      "Leitura preferencial do catálogo local de competições guardado em SQLite.",
-                      "Menos descoberta repetida de competições na FPF em carregamentos não forçados.",
-                      "Arranque mais leve quando já existem dados locais válidos.",
-                      "Teste adicional ao repositório de snapshots e catálogo."
+                      "Atualização para 3.5.5.",
+                      "Novo teste de integração ao CalendarSyncCoordinator.",
+                      "Validação do uso preferencial do catálogo local de competições.",
+                      "Maior proteção contra regressões no caminho otimizado de carregamento.",
+                      "Build e testes mantidos sem regressões."
                   ]
 }
