@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  350,
-    "versionName":  "3.5.0",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.0/kickoff.apk",
-    "apkSha256":  "E130BEF2D48C2815A253FF0361241BEE4BEAD5C8B9EE6B7DA78C29BFE80B3521",
-    "releaseNotes":  "Fase 4 concluída com modularização da MainActivity, extração de serviços FPF e documentação alinhada com a arquitetura atual.",
+    "versionCode":  351,
+    "versionName":  "3.5.1",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.1/kickoff.apk",
+    "apkSha256":  "CFD9D1B639532494F73CB4E6F8E87B9A8D244E4AE48CF1190B925AD331F66C40",
+    "releaseNotes":  "Refactor técnico: networking migrado para Retrofit/OkHttp comum, FpfCalendarService dividido em módulos e testes de regressão reforçados.",
     "changelog":  [
-                      "Atualização para 3.5.0.",
-                      "Fase 4 concluída.",
-                      "MainActivity modularizada com ViewModel e coordenadores dedicados.",
-                      "FpfCalendarService dividido com parser e gateway HTTP/cache.",
-                      "README alinhado com a arquitetura e fluxo atuais."
+                      "Atualização para 3.5.1.",
+                      "Networking principal migrado para Retrofit/OkHttp comum.",
+                      "ActivationService, GithubUpdateService e FpfHttpCacheGateway alinhados no cliente HTTP partilhado.",
+                      "FpfCalendarService dividido em catálogo, pipeline de fixtures e cache em disco.",
+                      "Testes de regressão reforçados para catálogo e cache."
                   ]
 }
