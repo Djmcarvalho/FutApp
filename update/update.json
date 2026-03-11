@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  353,
-    "versionName":  "3.5.3",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.3/kickoff.apk",
-    "apkSha256":  "19FEA08A1CB104068EC8D9D06112B5996D9B63AB12AA04F8A1997A9FAA70CBCA",
-    "releaseNotes":  "Limpeza técnica: removido o fluxo obsoleto de aviso de dados novos, mantendo apenas a sincronização silenciosa em background.",
+    "versionCode":  354,
+    "versionName":  "3.5.4",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.4/kickoff.apk",
+    "apkSha256":  "ADEF878234331F088CE82B4EB33CAA30B58AF68D52E9B7D5341F7E4E2EF3E661",
+    "releaseNotes":  "Otimização de carregamento: a app passa a reutilizar o catálogo local de competições em SQLite, reduzindo descoberta repetida na FPF quando já existem dados válidos.",
     "changelog":  [
-                      "Atualização para 3.5.3.",
-                      "Removido o fluxo antigo de aviso de dados novos.",
-                      "Simplificado o estado da MainActivity, MainViewModel e MainUiState.",
-                      "Eliminado código morto associado ao store de prompts de refresh.",
-                      "Validação de build e testes mantida após a limpeza."
+                      "Atualização para 3.5.4.",
+                      "Leitura preferencial do catálogo local de competições guardado em SQLite.",
+                      "Menos descoberta repetida de competições na FPF em carregamentos não forçados.",
+                      "Arranque mais leve quando já existem dados locais válidos.",
+                      "Teste adicional ao repositório de snapshots e catálogo."
                   ]
 }
