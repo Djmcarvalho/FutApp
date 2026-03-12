@@ -1,14 +1,15 @@
 ﻿{
-    "versionCode":  362,
-    "versionName":  "3.5.12",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.12/kickoff.apk",
-    "apkSha256":  "48DB145161DC18BAD6A2E63D39F1D55DA149A434C6EE41C769506306D8A72FCF",
-    "releaseNotes":  "Melhoria visual e funcional: o bloco Próximo jogo só aparece com jogos futuros reais e passa a destacar Casa/Fora.",
+    "versionCode":  363,
+    "versionName":  "3.5.13",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.13/kickoff.apk",
+    "apkSha256":  "7D96A12A097BEAA4A60D941CED1931ACE360B8654FF28B317DA8842473905EFE",
+    "releaseNotes":  "Correção funcional: Casa/Fora no Próximo jogo, menu ordenado por escalões e abertura inicial em Seniores.",
     "changelog":  [
-                      "Atualização para 3.5.12.",
-                      "O bloco Próximo jogo passa a aparecer só com jogos futuros reais.",
-                      "Adicionado destaque Casa/Fora nos cartões do topo.",
-                      "Mantidos os filtros de jogos e o skeleton loading.",
-                      "Testes e build validados após a alteração."
+                      "Atualização para 3.5.13.",
+                      "Corrigida a deteção Casa/Fora no destaque do Próximo jogo, incluindo a Equipa B.",
+                      "Removido o texto \"Próximos jogos da competição\" do cabeçalho do destaque.",
+                      "Competições ordenadas por escalão, de Seniores até Petizes.",
+                      "A competição selecionada por defeito passa a ser Seniores quando existir."
                   ]
 }
+
