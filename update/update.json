@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  361,
-    "versionName":  "3.5.11",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.11/kickoff.apk",
-    "apkSha256":  "30004DF1515CD8EF03796DC2A10B5197FE5746C1CD9DC758F694B780B405FD0F",
-    "releaseNotes":  "Correção crítica: a APK de atualização volta a usar a mesma assinatura estável da app instalada, corrigindo a falha de update.",
+    "versionCode":  362,
+    "versionName":  "3.5.12",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.12/kickoff.apk",
+    "apkSha256":  "48DB145161DC18BAD6A2E63D39F1D55DA149A434C6EE41C769506306D8A72FCF",
+    "releaseNotes":  "Melhoria visual e funcional: o bloco Próximo jogo só aparece com jogos futuros reais e passa a destacar Casa/Fora.",
     "changelog":  [
-                      "Atualização para 3.5.11.",
-                      "Correção crítica da assinatura da APK para permitir atualização sobre a app já instalada.",
-                      "O build passa a usar o debug.keystore estável do perfil do Windows.",
-                      "Mantida a correção do Próximo jogo com datas curtas da FPF e hora atual real.",
-                      "Nova APK OTA compatível com a assinatura esperada."
+                      "Atualização para 3.5.12.",
+                      "O bloco Próximo jogo passa a aparecer só com jogos futuros reais.",
+                      "Adicionado destaque Casa/Fora nos cartões do topo.",
+                      "Mantidos os filtros de jogos e o skeleton loading.",
+                      "Testes e build validados após a alteração."
                   ]
 }
