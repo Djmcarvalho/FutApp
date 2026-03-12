@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  360,
-    "versionName":  "3.5.10",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.10/kickoff.apk",
-    "apkSha256":  "1EC067A4AD57E38D36C41E2F92FB03967AEE5CEE2B85E760E8D03055F3875456",
-    "releaseNotes":  "Correção funcional: o Próximo jogo passa a interpretar datas curtas da FPF, como 10 mar, pela época ativa e pela hora atual real.",
+    "versionCode":  361,
+    "versionName":  "3.5.11",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.11/kickoff.apk",
+    "apkSha256":  "30004DF1515CD8EF03796DC2A10B5197FE5746C1CD9DC758F694B780B405FD0F",
+    "releaseNotes":  "Correção crítica: a APK de atualização volta a usar a mesma assinatura estável da app instalada, corrigindo a falha de update.",
     "changelog":  [
-                      "Atualização para 3.5.10.",
-                      "Correção da seleção do Próximo jogo com datas curtas da FPF, como 10 mar e 17 abr.",
-                      "Interpretação da data com base na época selecionada, por exemplo 2025-2026.",
-                      "Comparação feita contra a hora atual real, incluindo jogos no mesmo dia.",
-                      "Novos testes para datas FPF curtas e jogos no mesmo dia."
+                      "Atualização para 3.5.11.",
+                      "Correção crítica da assinatura da APK para permitir atualização sobre a app já instalada.",
+                      "O build passa a usar o debug.keystore estável do perfil do Windows.",
+                      "Mantida a correção do Próximo jogo com datas curtas da FPF e hora atual real.",
+                      "Nova APK OTA compatível com a assinatura esperada."
                   ]
 }
