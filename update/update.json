@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  358,
-    "versionName":  "3.5.8",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.8/kickoff.apk",
-    "apkSha256":  "CC55FA45D7C114B506079EB645AA10A814125E16115D1EA4861F2845C73BCC5B",
-    "releaseNotes":  "Correção funcional: o Próximo jogo passa a respeitar melhor datas, jornadas e jogos por disputar, incluindo cenários com equipas A e B.",
+    "versionCode":  359,
+    "versionName":  "3.5.9",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.9/kickoff.apk",
+    "apkSha256":  "95EBE93E714B054CC057160532D85949BCF4049903ACDB76D1E4F3C91AD93E53",
+    "releaseNotes":  "Correção funcional: o Próximo jogo passa a ser escolhido pela data mais próxima a partir de hoje, respeitando jogos por disputar e equipas A e B.",
     "changelog":  [
-                      "Atualização para 3.5.8.",
-                      "Correção da seleção do Próximo jogo com base na ordem das fases e jornadas.",
-                      "Prioridade dada a jogos por disputar em vez de jogos já com resultado.",
-                      "Ajuste da seleção separada para Equipa A e Equipa B.",
-                      "Validação de build e testes após a correção."
+                      "Atualização para 3.5.9.",
+                      "Correção da seleção do Próximo jogo pela menor data futura.",
+                      "Prioridade para jogos por disputar em vez de jogos já com resultado.",
+                      "Melhor desempate por jornada e ordem quando necessário.",
+                      "Novo teste para validar escolha da data mais próxima."
                   ]
 }
