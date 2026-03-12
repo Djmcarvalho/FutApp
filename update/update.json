@@ -1,15 +1,16 @@
 ﻿{
-    "versionCode":  363,
-    "versionName":  "3.5.13",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.13/kickoff.apk",
-    "apkSha256":  "7D96A12A097BEAA4A60D941CED1931ACE360B8654FF28B317DA8842473905EFE",
-    "releaseNotes":  "Correção funcional: Casa/Fora no Próximo jogo, menu ordenado por escalões e abertura inicial em Seniores.",
+    "versionCode":  364,
+    "versionName":  "3.5.14",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.14/kickoff.apk",
+    "apkSha256":  "45E5DCDE70CBD6036BC014DC4C804C0D9548493800588BDBB08479E370DD30D2",
+    "releaseNotes":  "Correção de ordenação: bigONE Pró-Nacional no topo e Traquinas acima de Petizes.",
     "changelog":  [
-                      "Atualização para 3.5.13.",
-                      "Corrigida a deteção Casa/Fora no destaque do Próximo jogo, incluindo a Equipa B.",
-                      "Removido o texto \"Próximos jogos da competição\" do cabeçalho do destaque.",
-                      "Competições ordenadas por escalão, de Seniores até Petizes.",
-                      "A competição selecionada por defeito passa a ser Seniores quando existir."
+                      "Atualização para 3.5.14.",
+                      "bigONE Pró-Nacional passa a surgir no topo da lista de competições.",
+                      "Traquinas fica acima de Petizes na ordenação dos escalões.",
+                      "Petizes passa a ser o último escalão na lista.",
+                      "Build e testes validados após a correção."
                   ]
 }
+
 
