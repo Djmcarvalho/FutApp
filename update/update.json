@@ -1,17 +1,18 @@
 ﻿{
-    "versionCode":  368,
-    "versionName":  "3.5.18",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.18/kickoff.apk",
-    "apkSha256":  "D4A5E84BD09BBE76ECC0E87C9C2B0206A263B481852232BC98E51A62B97A9649",
-    "releaseNotes":  "Ajuste de interface: filtros simplificados, bloco principal mais limpo e janelas Info sem barra superior.",
+    "versionCode":  369,
+    "versionName":  "3.5.19",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.19/kickoff.apk",
+    "apkSha256":  "7C76D440B1D53101105B30A1F53D53A8138902EBC1E8A42E9C74C5000A911418",
+    "releaseNotes":  "Melhoria visual: AlertDialogs alinhados com o visual da app.",
     "changelog":  [
-                      "Atualização para 3.5.18.",
-                      "Removidos os filtros Casa e Fora da lista de jogos.",
-                      "Mantidos apenas os filtros Todos, Próximos e Terminados.",
-                      "Retirado o texto Próximos jogos do bloco principal.",
-                      "Janelas Info sem a barra superior."
+                      "Atualização para 3.5.19.",
+                      "AlertDialogs passam a usar o cabeçalho visual da app.",
+                      "Mantido o comportamento sem barra superior nas janelas de Info.",
+                      "Tons de Info, Aviso, Erro e Update alinhados com o visual da interface.",
+                      "Testes e build validados após a atualização."
                   ]
 }
+
 
 
 
