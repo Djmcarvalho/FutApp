@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  355,
-    "versionName":  "3.5.5",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.5/kickoff.apk",
-    "apkSha256":  "4A1204F71469543D9FB55A9B867397F16490D3E63988814442DE066C39238ED0",
-    "releaseNotes":  "Reforço de testes: novo teste de integração ao CalendarSyncCoordinator para proteger o uso do catálogo local de competições guardado em SQLite.",
+    "versionCode":  356,
+    "versionName":  "3.5.6",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.6/kickoff.apk",
+    "apkSha256":  "281F99DC172214C2B8136AE9DE5B3E907E9B473AC7C3ADD446B2967A1EAB2CB5",
+    "releaseNotes":  "Melhoria visual: novo bloco de Próximo jogo, cartões de jogos mais apelativos e classificação com melhor hierarquia visual.",
     "changelog":  [
-                      "Atualização para 3.5.5.",
-                      "Novo teste de integração ao CalendarSyncCoordinator.",
-                      "Validação do uso preferencial do catálogo local de competições.",
-                      "Maior proteção contra regressões no caminho otimizado de carregamento.",
-                      "Build e testes mantidos sem regressões."
+                      "Atualização para 3.5.6.",
+                      "Novo destaque visual para o Próximo jogo.",
+                      "Cartões de jogos redesenhados com melhor leitura no telemóvel.",
+                      "Tabela de classificação com mais contraste e destaque da equipa ativa.",
+                      "Novo teste ao renderer HTML para o bloco Próximo jogo."
                   ]
 }
