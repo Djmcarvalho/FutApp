@@ -1,17 +1,18 @@
 ﻿{
-    "versionCode":  366,
-    "versionName":  "3.5.16",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.16/kickoff.apk",
-    "apkSha256":  "6024CC6BC2BD4F060B54691AB53BA84E1891782460386EC5F72F266A0FB6B354",
-    "releaseNotes":  "Ajuste visual: bloco Próximo jogo mais compacto e mais próximo do visual anterior.",
+    "versionCode":  367,
+    "versionName":  "3.5.17",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.17/kickoff.apk",
+    "apkSha256":  "1E4E09C87683E258AA9291FD8EBB049B430E25D6E56447A106F805BEFEF8E8AC",
+    "releaseNotes":  "Melhoria funcional: filtros Casa/Fora adicionados à lista de jogos.",
     "changelog":  [
-                      "Atualização para 3.5.16.",
-                      "Bloco Próximo jogo reduzido e visualmente mais compacto.",
-                      "Removidas as caixas internas de metadados no topo.",
-                      "Mantido o destaque Casa/Fora com leitura mais próxima do visual anterior.",
+                      "Atualização para 3.5.17.",
+                      "Adicionados filtros Casa e Fora à lista de jogos.",
+                      "Os jogos passam a ser marcados como is-home e is-away no HTML.",
+                      "Reutilizada a lógica de Casa/Fora já corrigida no destaque do Próximo jogo.",
                       "Testes e build validados após a atualização."
                   ]
 }
+
 
 
 
