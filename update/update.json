@@ -1,17 +1,18 @@
 ﻿{
-    "versionCode":  365,
-    "versionName":  "3.5.15",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.15/kickoff.apk",
-    "apkSha256":  "8E3BA65F7075EF81B8F0E0DCE3CAD4865D0D0FE76D99E829ED386E888B5BBE36",
-    "releaseNotes":  "Melhoria visual: bloco Próximo jogo e cartões dos jogos com hierarquia visual mais forte.",
+    "versionCode":  366,
+    "versionName":  "3.5.16",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.16/kickoff.apk",
+    "apkSha256":  "6024CC6BC2BD4F060B54691AB53BA84E1891782460386EC5F72F266A0FB6B354",
+    "releaseNotes":  "Ajuste visual: bloco Próximo jogo mais compacto e mais próximo do visual anterior.",
     "changelog":  [
-                      "Atualização para 3.5.15.",
-                      "Bloco Próximo jogo com apresentação mais forte e metadados separados.",
-                      "Cartões dos jogos com badges de fase, jornada e estado.",
-                      "Melhorias visuais no local, resultado e leitura geral dos jogos.",
+                      "Atualização para 3.5.16.",
+                      "Bloco Próximo jogo reduzido e visualmente mais compacto.",
+                      "Removidas as caixas internas de metadados no topo.",
+                      "Mantido o destaque Casa/Fora com leitura mais próxima do visual anterior.",
                       "Testes e build validados após a atualização."
                   ]
 }
+
 
 
 
