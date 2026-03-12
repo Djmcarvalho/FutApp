@@ -1,14 +1,14 @@
 ﻿{
-    "versionCode":  356,
-    "versionName":  "3.5.6",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.6/kickoff.apk",
-    "apkSha256":  "281F99DC172214C2B8136AE9DE5B3E907E9B473AC7C3ADD446B2967A1EAB2CB5",
-    "releaseNotes":  "Melhoria visual: novo bloco de Próximo jogo, cartões de jogos mais apelativos e classificação com melhor hierarquia visual.",
+    "versionCode":  357,
+    "versionName":  "3.5.7",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.7/kickoff.apk",
+    "apkSha256":  "F020CBF6E943AED93B37525051366876D74A04BCD06F323FE4D92A3C3A6A0DA3",
+    "releaseNotes":  "Correção funcional: o bloco Próximo jogo passa a calcular corretamente os próximos jogos por equipa, suportando cenários com equipas A e B.",
     "changelog":  [
-                      "Atualização para 3.5.6.",
-                      "Novo destaque visual para o Próximo jogo.",
-                      "Cartões de jogos redesenhados com melhor leitura no telemóvel.",
-                      "Tabela de classificação com mais contraste e destaque da equipa ativa.",
-                      "Novo teste ao renderer HTML para o bloco Próximo jogo."
+                      "Atualização para 3.5.7.",
+                      "Correção do cálculo do Próximo jogo.",
+                      "Suporte explícito a cartões separados para Equipa A e Equipa B.",
+                      "Ajuste do renderer HTML para evitar seleção errada do jogo em competições com duas equipas.",
+                      "Teste atualizado para validar o destaque por equipa."
                   ]
 }
