@@ -1,13 +1,14 @@
 {
-    "versionCode":  370,
-    "versionName":  "3.5.20",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.20/kickoff.apk",
-    "apkSha256":  "FB78DE08A9C992816E0B3CB3A327962BB13323606A6FA0A8A1AA9A3DE82BB4D8",
-    "releaseNotes":  "AtualizaÁ„o do Ìcone da app para usar o mesmo logo do carregamento.",
-    "changelog":  [
-                      "AtualizaÁ„o para 3.5.20.",
-                      "Õcone da aplicaÁ„o alinhado com o logo mostrado no carregamento.",
-                      "AndroidManifest passa a usar kickoff_loading em icon e roundIcon.",
-                      "Build validada apÛs a atualizaÁ„o."
-                  ]
+  "versionCode": 371,
+  "versionName": "3.5.21",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.21/kickoff.apk",
+  "apkSha256": "600DE23B6931C24262E74ECDC029951C3EF37FE9E31E6EBFC672339F024A5F93",
+  "releaseNotes": "Corre√ß√£o do logo nos modais e limpeza de encoding no fluxo de atualiza√ß√£o.",
+  "changelog": [
+    "Atualiza√ß√£o para 3.5.21.",
+    "Cabe√ßalhos dos modais passam a usar o mesmo logo do carregamento.",
+    "Corre√ß√£o de texto e acentua√ß√£o no changelog e no fluxo de atualiza√ß√£o.",
+    "Manifesto OTA regravado em UTF-8.",
+    "Testes e build validados ap√≥s a atualiza√ß√£o."
+  ]
 }
