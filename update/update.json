@@ -1,16 +1,17 @@
 ﻿{
-    "versionCode":  364,
-    "versionName":  "3.5.14",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.14/kickoff.apk",
-    "apkSha256":  "45E5DCDE70CBD6036BC014DC4C804C0D9548493800588BDBB08479E370DD30D2",
-    "releaseNotes":  "Correção de ordenação: bigONE Pró-Nacional no topo e Traquinas acima de Petizes.",
+    "versionCode":  365,
+    "versionName":  "3.5.15",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.15/kickoff.apk",
+    "apkSha256":  "8E3BA65F7075EF81B8F0E0DCE3CAD4865D0D0FE76D99E829ED386E888B5BBE36",
+    "releaseNotes":  "Melhoria visual: bloco Próximo jogo e cartões dos jogos com hierarquia visual mais forte.",
     "changelog":  [
-                      "Atualização para 3.5.14.",
-                      "bigONE Pró-Nacional passa a surgir no topo da lista de competições.",
-                      "Traquinas fica acima de Petizes na ordenação dos escalões.",
-                      "Petizes passa a ser o último escalão na lista.",
-                      "Build e testes validados após a correção."
+                      "Atualização para 3.5.15.",
+                      "Bloco Próximo jogo com apresentação mais forte e metadados separados.",
+                      "Cartões dos jogos com badges de fase, jornada e estado.",
+                      "Melhorias visuais no local, resultado e leitura geral dos jogos.",
+                      "Testes e build validados após a atualização."
                   ]
 }
+
 
 
