@@ -1,14 +1,15 @@
 {
-  "versionCode": 375,
-  "versionName": "3.5.25",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.25/kickoff.apk",
-  "apkSha256": "DC1ED88D7DB2D7BD5256BCF7997BF3FDA02868F025C64310D7834C02D1AAC452",
-  "releaseNotes": "APK republicada a partir de build limpo para corrigir a falha de Room na release 3.5.24.",
+  "versionCode": 376,
+  "versionName": "3.5.26",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.26/kickoff.apk",
+  "apkSha256": "705032DC06160976CD0A3626DF0D69FDEE0174607DE44E9BAAD360F4BB8708F4",
+  "releaseNotes": "Catálogo de competições saneado: remoção de duplicados, recuperação mais segura por época e correção de cache local antiga.",
   "changelog": [
-    "Atualização para 3.5.25.",
-    "APK republicada a partir de build limpo.",
-    "Código gerado do Room validado dentro da APK.",
-    "Corrigida a falha AppDatabase_Impl em runtime.",
-    "Sem alterações funcionais adicionais nesta release."
+    "Atualização para 3.5.26.",
+    "Catálogo local e remoto normalizados para IDs canónicos.",
+    "Removidas duplicações de competições no menu.",
+    "Melhorada a troca de época com recuperação de escalões em falta.",
+    "Snapshots antigas com IDs genéricos passam a ser saneadas ao ler e guardar.",
+    "Reforçados testes do catálogo e persistência local."
   ]
 }
