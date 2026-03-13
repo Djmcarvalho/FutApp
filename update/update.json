@@ -1,13 +1,13 @@
 {
-  "versionCode": 384,
-  "versionName": "3.5.34",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.34/kickoff.apk",
-  "apkSha256": "11D76BB47102794609332B62C4C4115695B63FD15B83891A43C9699A502ECDAC",
-  "releaseNotes": "Melhorias adicionais de desempenho na descoberta de competições por época.",
+  "versionCode": 385,
+  "versionName": "3.5.35",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.35/kickoff.apk",
+  "apkSha256": "D94EDAAD5D6D111FE220661A7E824E87C69E856079A6A25C239066B3D2C51FAF",
+  "releaseNotes": "Melhoria da robustez no download OTA da APK.",
   "changelog": [
-    "Atualização para 3.5.34.",
-    "Cache em memória da presença do clube por competição no FpfCalendarService.",
-    "Menos probes repetidas à FPF durante refresh e mudança de época.",
-    "Melhoria de desempenho no catálogo por época sem alterar funcionalidades."
+    "Atualização para 3.5.35.",
+    "Download da APK com retries automáticos.",
+    "Fallback adicional para jsDelivr quando o host raw falhar.",
+    "Menor probabilidade de falha intermitente na transferência da atualização."
   ]
 }
