@@ -1,15 +1,13 @@
 {
-  "versionCode": 376,
-  "versionName": "3.5.26",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.26/kickoff.apk",
-  "apkSha256": "705032DC06160976CD0A3626DF0D69FDEE0174607DE44E9BAAD360F4BB8708F4",
-  "releaseNotes": "Catálogo de competições saneado: remoção de duplicados, recuperação mais segura por época e correção de cache local antiga.",
+  "versionCode": 377,
+  "versionName": "3.5.27",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.27/kickoff.apk",
+  "apkSha256": "A65025BFD9EB7294E37C3E3321F423ED0D3871C9B67E8021FA9998FD7D6EB4DB",
+  "releaseNotes": "Removidos duplicados de escalões canónicos ao mudar de época.",
   "changelog": [
-    "Atualização para 3.5.26.",
-    "Catálogo local e remoto normalizados para IDs canónicos.",
-    "Removidas duplicações de competições no menu.",
-    "Melhorada a troca de época com recuperação de escalões em falta.",
-    "Snapshots antigas com IDs genéricos passam a ser saneadas ao ler e guardar.",
-    "Reforçados testes do catálogo e persistência local."
+    "Atualização para 3.5.27.",
+    "Saneamento final do catálogo por id canónico.",
+    "Removidas repetições de Juniores, Juvenis e Iniciados no menu.",
+    "Reforçado o teste do catálogo persistido por época."
   ]
 }
