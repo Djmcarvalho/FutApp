@@ -1,13 +1,13 @@
 {
-  "versionCode": 377,
-  "versionName": "3.5.27",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.27/kickoff.apk",
-  "apkSha256": "A65025BFD9EB7294E37C3E3321F423ED0D3871C9B67E8021FA9998FD7D6EB4DB",
-  "releaseNotes": "Removidos duplicados de escalões canónicos ao mudar de época.",
+  "versionCode": 378,
+  "versionName": "3.5.28",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.28/kickoff.apk",
+  "apkSha256": "F23B96A739868E8AC633E280A031B0AC54856FA5C8E95343B39FC5BEDC7A0DD6",
+  "releaseNotes": "Corrigido o crash dos diÃ¡logos de atualizaÃ§Ã£o e changelog.",
   "changelog": [
-    "Atualização para 3.5.27.",
-    "Saneamento final do catálogo por id canónico.",
-    "Removidas repetições de Juniores, Juvenis e Iniciados no menu.",
-    "Reforçado o teste do catálogo persistido por época."
+    "AtualizaÃ§Ã£o para 3.5.28.",
+    "Removido o custom title que fazia cair os diÃ¡logos de atualizaÃ§Ã£o e changelog.",
+    "Mantido o Ã­cone do carregamento nos modais sem depender de layout de cabeÃ§alho.",
+    "Build e testes validados antes da publicaÃ§Ã£o."
   ]
 }
