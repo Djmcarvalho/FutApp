@@ -1,14 +1,14 @@
 ﻿{
-  "versionCode": 372,
-  "versionName": "3.5.22",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.22/kickoff.apk",
-  "apkSha256": "D207FBF5C3122F62A4BBCBA5A0AB1BD986D063FE946F464DCB04E4F4A0E72498",
-  "releaseNotes": "Melhoria de desempenho no refresh e maior robustez na lista de competições por época.",
+  "versionCode": 373,
+  "versionName": "3.5.23",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.23/kickoff.apk",
+  "apkSha256": "613B2A86146D664645B3259CF4E9D3EB583A334D9C426206CFE9ADBE344D1B35",
+  "releaseNotes": "Catálogo de competições mais completo por época e revisão global do encoding.",
   "changelog": [
-    "Atualização para 3.5.22.",
-    "Refresh passa a reutilizar o catálogo local de competições para reduzir latência.",
-    "Filtro de competições por clube fica mais robusto na mudança de época.",
-    "Recuperação de competições em falta integrada no catálogo filtrado.",
+    "Atualização para 3.5.23.",
+    "Catálogo por época fica mais robusto e recupera competições em falta.",
+    "Mudança de época passa a detetar melhor catálogos incompletos.",
+    "Revisão global ao encoding nos módulos de catálogo e atualização.",
     "Testes e build validados após a atualização."
   ]
 }
