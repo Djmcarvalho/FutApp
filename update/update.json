@@ -1,12 +1,13 @@
 {
-  "versionCode": 387,
-  "versionName": "3.5.37",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.37/kickoff.apk",
-  "apkSha256": "AC1C7FA43D65533E366980A86819BB173280207760B816F0AA6EBD6414B3C3C5",
-  "releaseNotes": "Corre\u00e7\u00e3o definitiva do di\u00e1logo de altera\u00e7\u00e3o de c\u00f3digo.",
-  "changelog": [
-    "Di\u00e1logo de c\u00f3digo refeito sem depend\u00eancia do AlertDialog que rebentava em alguns dispositivos.",
-    "Texto do fluxo de ativa\u00e7\u00e3o revisto em portugu\u00eas de Portugal e UTF-8.",
-    "Mantida a fun\u00e7\u00e3o do hotspot oculto sem sobrepor o menu."
-  ]
+    "versionCode":  388,
+    "versionName":  "3.5.38",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.38/kickoff.apk",
+    "apkSha256":  "C0D36D223D9723B3B6546038595D997AB405BC546471706AF3B69A70CFD62C16",
+    "releaseNotes":  "Melhorias de desempenho na mudança de época e no refresh.",
+    "changelog":  [
+                      "Mudança de época limpa a competição anterior para evitar catálogo arrastado de outra época.",
+                      "Background sync evita verificações remotas redundantes logo após carregar snapshots locais.",
+                      "Deteção do clube na competição faz atalho pela página principal antes de entrar em probes de fixtures.",
+                      "Download OTA mantém a robustez desta fase e o changelog continua em UTF-8 sem BOM."
+                  ]
 }
