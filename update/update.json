@@ -1,14 +1,14 @@
 {
-  "versionCode": 382,
-  "versionName": "3.5.32",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.32/kickoff.apk",
-  "apkSha256": "FFBE3B08CE5A15148CAFE790381CDEF121A1C6B33C04EF1EDC0F030118A78F47",
-  "releaseNotes": "Cat?logo local por ?poca com auto-repara??o a partir dos snapshots guardados.",
-  "changelog": [
-    "Atualiza??o para 3.5.32.",
-    "O cat?logo local por ?poca passa a ser reparado automaticamente quando SQLite tiver dados incompletos.",
-    "A leitura do cat?logo agora cruza cat?logo persistido com snapshots locais da mesma ?poca.",
-    "Melhor consist?ncia entre mudan?a de ?poca, cache local e lista de competi??es.",
-    "Testes refor?ados ao reposit?rio de snapshots."
-  ]
+    "versionCode":  383,
+    "versionName":  "3.5.33",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.33/kickoff.apk",
+    "apkSha256":  "52E6593C6083637768AF09970D8BEB5D26D340375337133666F02125FA973431",
+    "releaseNotes":  "Melhorias de desempenho no catálogo por época e correção do changelog OTA.",
+    "changelog":  [
+                      "Atualização para 3.5.33.",
+                      "Cache em memória para o catálogo local por clube e época no CalendarSyncCoordinator.",
+                      "Cache da verificação de catálogo incompleto para reduzir recomputação no FpfCalendarService.",
+                      "README revisto e update.json gerado em UTF-8 sem BOM pelo script de release.",
+                      "Melhor consistência entre refresh, mudança de época e publicação do changelog."
+                  ]
 }
