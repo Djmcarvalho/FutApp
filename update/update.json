@@ -1,13 +1,12 @@
 {
-  "versionCode": 385,
-  "versionName": "3.5.35",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.35/kickoff.apk",
-  "apkSha256": "D94EDAAD5D6D111FE220661A7E824E87C69E856079A6A25C239066B3D2C51FAF",
-  "releaseNotes": "Melhoria da robustez no download OTA da APK.",
+  "versionCode": 386,
+  "versionName": "3.5.36",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.36/kickoff.apk",
+  "apkSha256": "E4A6C4957F8AC5034941FD5A5CF832A60B0EFA31B0BDF112BB7053FD51E8A30C",
+  "releaseNotes": "Ajuste do hotspot invisível no canto superior direito.",
   "changelog": [
-    "Atualização para 3.5.35.",
-    "Download da APK com retries automáticos.",
-    "Fallback adicional para jsDelivr quando o host raw falhar.",
-    "Menor probabilidade de falha intermitente na transferência da atualização."
+    "Atualização para 3.5.36.",
+    "Hotspot invisível reduzido e encostado ao canto superior direito.",
+    "Menor risco de sobreposição com o botão X do menu."
   ]
 }
