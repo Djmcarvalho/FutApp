@@ -1,14 +1,14 @@
 {
-  "versionCode": 381,
-  "versionName": "3.5.31",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.31/kickoff.apk",
-  "apkSha256": "9F48F8359F696CBDB0CCF0D6A3F9195308A541362DBD938AE01032FB2430481E",
-  "releaseNotes": "Limpeza segura do projeto e cat?logo de competi??es por ?poca mais rigoroso.",
+  "versionCode": 382,
+  "versionName": "3.5.32",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.32/kickoff.apk",
+  "apkSha256": "FFBE3B08CE5A15148CAFE790381CDEF121A1C6B33C04EF1EDC0F030118A78F47",
+  "releaseNotes": "Cat?logo local por ?poca com auto-repara??o a partir dos snapshots guardados.",
   "changelog": [
-    "Atualiza??o para 3.5.31.",
-    "Limpeza segura do projeto: dist reduzido, assets e recursos mortos removidos.",
-    "Cat?logo de competi??es por ?poca mais rigoroso no fallback final.",
-    "Valida??o adicional do clube ativo ao recuperar competi??es por regra.",
-    "Corre??o de textos e ficheiros em UTF-8 sem BOM nos pontos revistos."
+    "Atualiza??o para 3.5.32.",
+    "O cat?logo local por ?poca passa a ser reparado automaticamente quando SQLite tiver dados incompletos.",
+    "A leitura do cat?logo agora cruza cat?logo persistido com snapshots locais da mesma ?poca.",
+    "Melhor consist?ncia entre mudan?a de ?poca, cache local e lista de competi??es.",
+    "Testes refor?ados ao reposit?rio de snapshots."
   ]
 }
