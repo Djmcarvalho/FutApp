@@ -1,14 +1,14 @@
 {
-  "versionCode": 380,
-  "versionName": "3.5.30",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.30/kickoff.apk",
-  "apkSha256": "69DF324D436F3A2C032D7FBAEAA480ECAAA919182F3AF303D7697E8E2C62BDF1",
-  "releaseNotes": "Corrigido o botão oculto para alteração de código, com diálogo estável e texto em português correto.",
+  "versionCode": 381,
+  "versionName": "3.5.31",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.31/kickoff.apk",
+  "apkSha256": "9F48F8359F696CBDB0CCF0D6A3F9195308A541362DBD938AE01032FB2430481E",
+  "releaseNotes": "Limpeza segura do projeto e cat?logo de competi??es por ?poca mais rigoroso.",
   "changelog": [
-    "Atualização para 3.5.30.",
-    "Corrigido o botão oculto no canto superior direito.",
-    "Diálogo de alteração de código estabilizado sem crash de inflação.",
-    "Texto do diálogo revisto em português de Portugal.",
-    "Normalização de ficheiros para UTF-8 sem BOM em pontos críticos."
+    "Atualiza??o para 3.5.31.",
+    "Limpeza segura do projeto: dist reduzido, assets e recursos mortos removidos.",
+    "Cat?logo de competi??es por ?poca mais rigoroso no fallback final.",
+    "Valida??o adicional do clube ativo ao recuperar competi??es por regra.",
+    "Corre??o de textos e ficheiros em UTF-8 sem BOM nos pontos revistos."
   ]
 }
