@@ -1,14 +1,14 @@
 {
-  "versionCode": 374,
-  "versionName": "3.5.24",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.24/kickoff.apk",
-  "apkSha256": "468F03E561AB185C5507F8932B6E748D5B93BAE98478028A8B23993FB4B66ED1",
-  "releaseNotes": "Catálogo por época refinado e menu de competições simplificado.",
+  "versionCode": 375,
+  "versionName": "3.5.25",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.25/kickoff.apk",
+  "apkSha256": "DC1ED88D7DB2D7BD5256BCF7997BF3FDA02868F025C64310D7834C02D1AAC452",
+  "releaseNotes": "APK republicada a partir de build limpo para corrigir a falha de Room na release 3.5.24.",
   "changelog": [
-    "Atualização para 3.5.24.",
-    "Catálogo local por época só é reutilizado quando parece completo.",
-    "Cache em memória de competições incompletas deixa de ser reaproveitada.",
-    "Menu de competições deixa de criar grupos artificiais como Futebol 11.",
-    "Testes e build validados após a atualização."
+    "Atualização para 3.5.25.",
+    "APK republicada a partir de build limpo.",
+    "Código gerado do Room validado dentro da APK.",
+    "Corrigida a falha AppDatabase_Impl em runtime.",
+    "Sem alterações funcionais adicionais nesta release."
   ]
 }
