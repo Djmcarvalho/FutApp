@@ -1,14 +1,13 @@
 {
-    "versionCode":  383,
-    "versionName":  "3.5.33",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.33/kickoff.apk",
-    "apkSha256":  "52E6593C6083637768AF09970D8BEB5D26D340375337133666F02125FA973431",
-    "releaseNotes":  "Melhorias de desempenho no catálogo por época e correção do changelog OTA.",
-    "changelog":  [
-                      "Atualização para 3.5.33.",
-                      "Cache em memória para o catálogo local por clube e época no CalendarSyncCoordinator.",
-                      "Cache da verificação de catálogo incompleto para reduzir recomputação no FpfCalendarService.",
-                      "README revisto e update.json gerado em UTF-8 sem BOM pelo script de release.",
-                      "Melhor consistência entre refresh, mudança de época e publicação do changelog."
-                  ]
+  "versionCode": 384,
+  "versionName": "3.5.34",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.34/kickoff.apk",
+  "apkSha256": "11D76BB47102794609332B62C4C4115695B63FD15B83891A43C9699A502ECDAC",
+  "releaseNotes": "Melhorias adicionais de desempenho na descoberta de competições por época.",
+  "changelog": [
+    "Atualização para 3.5.34.",
+    "Cache em memória da presença do clube por competição no FpfCalendarService.",
+    "Menos probes repetidas à FPF durante refresh e mudança de época.",
+    "Melhoria de desempenho no catálogo por época sem alterar funcionalidades."
+  ]
 }
