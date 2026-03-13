@@ -1,14 +1,14 @@
-﻿{
-  "versionCode": 373,
-  "versionName": "3.5.23",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.23/kickoff.apk",
-  "apkSha256": "613B2A86146D664645B3259CF4E9D3EB583A334D9C426206CFE9ADBE344D1B35",
-  "releaseNotes": "Catálogo de competições mais completo por época e revisão global do encoding.",
+{
+  "versionCode": 374,
+  "versionName": "3.5.24",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.24/kickoff.apk",
+  "apkSha256": "468F03E561AB185C5507F8932B6E748D5B93BAE98478028A8B23993FB4B66ED1",
+  "releaseNotes": "Catálogo por época refinado e menu de competições simplificado.",
   "changelog": [
-    "Atualização para 3.5.23.",
-    "Catálogo por época fica mais robusto e recupera competições em falta.",
-    "Mudança de época passa a detetar melhor catálogos incompletos.",
-    "Revisão global ao encoding nos módulos de catálogo e atualização.",
+    "Atualização para 3.5.24.",
+    "Catálogo local por época só é reutilizado quando parece completo.",
+    "Cache em memória de competições incompletas deixa de ser reaproveitada.",
+    "Menu de competições deixa de criar grupos artificiais como Futebol 11.",
     "Testes e build validados após a atualização."
   ]
 }
