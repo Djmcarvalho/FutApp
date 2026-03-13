@@ -1,13 +1,14 @@
 {
-  "versionCode": 379,
-  "versionName": "3.5.29",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.29/kickoff.apk",
-  "apkSha256": "A25D1B161CE3EBE361CE24F3C530E6574E2D5D87F036A44340A6C12CE28E1484",
-  "releaseNotes": "Reposto o bloco Próximo jogo na página principal.",
+  "versionCode": 380,
+  "versionName": "3.5.30",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.30/kickoff.apk",
+  "apkSha256": "69DF324D436F3A2C032D7FBAEAA480ECAAA919182F3AF303D7697E8E2C62BDF1",
+  "releaseNotes": "Corrigido o botão oculto para alteração de código, com diálogo estável e texto em português correto.",
   "changelog": [
-    "Atualização para 3.5.29.",
-    "Reposto o bloco Próximo jogo na página principal.",
-    "Mantido o cálculo do próximo jogo por equipa com fallback quando não existe data futura válida.",
-    "Renderer validado e APK gerada com a nova versão."
+    "Atualização para 3.5.30.",
+    "Corrigido o botão oculto no canto superior direito.",
+    "Diálogo de alteração de código estabilizado sem crash de inflação.",
+    "Texto do diálogo revisto em português de Portugal.",
+    "Normalização de ficheiros para UTF-8 sem BOM em pontos críticos."
   ]
 }
