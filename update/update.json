@@ -1,13 +1,12 @@
 {
-    "versionCode":  388,
-    "versionName":  "3.5.38",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.38/kickoff.apk",
-    "apkSha256":  "C0D36D223D9723B3B6546038595D997AB405BC546471706AF3B69A70CFD62C16",
-    "releaseNotes":  "Melhorias de desempenho na mudança de época e no refresh.",
+    "versionCode":  389,
+    "versionName":  "3.5.39",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.39/kickoff.apk",
+    "apkSha256":  "284C8D736A9039CA372EFEDC1BE92A91F71B2B422F37070CC77C7D519C5AAB85",
+    "releaseNotes":  "Validacao do fluxo OTA na versao 3.5.39.",
     "changelog":  [
-                      "Mudança de época limpa a competição anterior para evitar catálogo arrastado de outra época.",
-                      "Background sync evita verificações remotas redundantes logo após carregar snapshots locais.",
-                      "Deteção do clube na competição faz atalho pela página principal antes de entrar em probes de fixtures.",
-                      "Download OTA mantém a robustez desta fase e o changelog continua em UTF-8 sem BOM."
+                      "Bump de versao para forcar a deteccao de update na app instalada.",
+                      "Manifesto OTA regenerado com SHA-256 do novo APK.",
+                      "Mantidas as correcoes recentes no scraping e no cache."
                   ]
 }
