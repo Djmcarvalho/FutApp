@@ -1,12 +1,12 @@
 {
-    "versionCode":  390,
-    "versionName":  "3.5.40",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.40/kickoff.apk",
-    "apkSha256":  "3F8C4F802D9FCEF8AA68957FD161371D40AC5EC88484A08B0376222C73EB5C33",
-    "releaseNotes":  "Correção defensiva nos diálogos e validação do update 3.5.40.",
+    "versionCode":  391,
+    "versionName":  "3.5.41",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.41/kickoff.apk",
+    "apkSha256":  "4ADBEDABFCA425B08C378B59A7DC7C599B6514BF4E04D1B71292D7B479F8FCEE",
+    "releaseNotes":  "Novo throttling local para reduzir erros 429 da FPF.",
     "changelog":  [
-                      "Diálogos deixaram de depender do builder Material para evitar a inflação problemática.",
-                      "Build e testes validados antes da publicação.",
-                      "Canal OTA continua no repositório público FutApp/main."
+                      "Probes e downloads agora têm cadência mínima para reduzir pressão na FPF.",
+                      "Resposta 429 faz entrar em backoff mais agressivo antes de repetir pedidos.",
+                      "Build e testes validados antes da publicação."
                   ]
 }
