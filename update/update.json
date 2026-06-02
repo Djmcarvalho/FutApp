@@ -1,12 +1,12 @@
 {
-    "versionCode":  395,
-    "versionName":  "3.5.45",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.45/kickoff.apk",
-    "apkSha256":  "C15CC9DB8A0C3A5832487EC6A4272CA18C065B8C9DB43FF10F569BA7C008D81D",
-    "releaseNotes":  "Corrigido o carregamento inicial para aplicar os dados recebidos da FPF quando ainda nao existem dados locais.",
+    "versionCode":  396,
+    "versionName":  "3.5.46",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.46/kickoff.apk",
+    "apkSha256":  "D3199A9E1F1311A98FD9A8F9F6BFDDACAD51B330F4ECF07200372DEDC3C25E6F",
+    "releaseNotes":  "Forcado carregamento direto da FPF ao escolher escalao. Catalogo mantem todos os escaloes base mesmo quando a FPF devolve lista incompleta.",
     "changelog":  [
-                      "A resposta da FPF passa a substituir o placeholder quando a app arranca sem competicao selecionada.",
-                      "A sincronizacao em segundo plano ja nao fica bloqueada pelo throttle quando ainda nao existem dados locais.",
-                      "Mantida a protecao para nao trocar a competicao escolhida pelo utilizador durante o refresh."
+                      "Escolher outro escalao faz fetch remoto direto em vez de depender do cache local.",
+                      "O resolver deixa de converter automaticamente escaloes pedidos para Seniores.",
+                      "O catalogo do Vieira mantem Juniores, Juvenis, Iniciados, Infantis, Benjamins, Traquinas e Petizes como baseline."
                   ]
 }
