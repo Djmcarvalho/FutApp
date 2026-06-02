@@ -1,12 +1,12 @@
 {
-    "versionCode":  396,
-    "versionName":  "3.5.46",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.46/kickoff.apk",
-    "apkSha256":  "D3199A9E1F1311A98FD9A8F9F6BFDDACAD51B330F4ECF07200372DEDC3C25E6F",
-    "releaseNotes":  "Forcado carregamento direto da FPF ao escolher escalao. Catalogo mantem todos os escaloes base mesmo quando a FPF devolve lista incompleta.",
+    "versionCode":  397,
+    "versionName":  "3.5.47",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.47/kickoff.apk",
+    "apkSha256":  "F6DA13B0B0B982685022178F620D60572487437C9FED39EDF2FB2CDF3460257D",
+    "releaseNotes":  "Corrigido o carregamento dos escaloes: catalogo vem da pagina de competicoes da A.F. Braga e a app deixou de fazer probes lentos antes de abrir o escalao escolhido.",
     "changelog":  [
-                      "Escolher outro escalao faz fetch remoto direto em vez de depender do cache local.",
-                      "O resolver deixa de converter automaticamente escaloes pedidos para Seniores.",
-                      "O catalogo do Vieira mantem Juniores, Juvenis, Iniciados, Infantis, Benjamins, Traquinas e Petizes como baseline."
+                      "Removidos probes HTTP por competicao que deixavam a app lenta e bloqueavel pela FPF.",
+                      "O catalogo passa a usar os escaloes oficiais da A.F. Braga para a epoca 2025-2026.",
+                      "Ao escolher Juniores, Juvenis, Iniciados, Infantis, Benjamins, Traquinas ou Petizes a app abre diretamente o Competition/Details correspondente."
                   ]
 }
