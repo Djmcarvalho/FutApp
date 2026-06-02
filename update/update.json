@@ -1,12 +1,12 @@
 {
-    "versionCode":  391,
-    "versionName":  "3.5.41",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.41/kickoff.apk",
-    "apkSha256":  "4ADBEDABFCA425B08C378B59A7DC7C599B6514BF4E04D1B71292D7B479F8FCEE",
-    "releaseNotes":  "Novo throttling local para reduzir erros 429 da FPF.",
+    "versionCode":  392,
+    "versionName":  "3.5.42",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.42/kickoff.apk",
+    "apkSha256":  "E7FE26A91D9F8E37854C4320291F7E0A74F985CBE4ECE5B67FC8CEBE3DB17A4E",
+    "releaseNotes":  "Corrigido o arranque para nÃ£o ficar preso no carregamento quando a FPF demora ou responde mal.",
     "changelog":  [
-                      "Probes e downloads agora têm cadência mínima para reduzir pressão na FPF.",
-                      "Resposta 429 faz entrar em backoff mais agressivo antes de repetir pedidos.",
-                      "Build e testes validados antes da publicação."
+                      "O carregamento inicial jÃ¡ nÃ£o depende de descoberta remota logo Ã  partida.",
+                      "A app passa a mostrar fallback local se a FPF demorar demasiado.",
+                      "A versÃ£o agora identifica esta correÃ§Ã£o como 3.5.42."
                   ]
 }
