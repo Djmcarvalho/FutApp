@@ -5,7 +5,7 @@ AplicaÃ§Ã£o Android para consulta de competiÃ§Ãµes da FPF, orientada por
 ## Estado Atual
 
 - Nome comercial: `KickOff`
-- VersÃ£o atual no projeto: `3.5.39`
+- VersÃ£o atual no projeto: `3.5.40`
 - APK gerada: `kickoff.apk`
 - AtualizaÃ§Ã£o OTA: GitHub pÃºblico `Djmcarvalho/FutApp` no branch `main`
 - Base local: Room/SQLite com sincronizaÃ§Ã£o em background
