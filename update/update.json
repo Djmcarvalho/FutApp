@@ -1,12 +1,12 @@
 {
-    "versionCode":  399,
-    "versionName":  "3.5.49",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.49/kickoff.apk",
-    "apkSha256":  "CD0DA8C9C25F89F2576515D7F8DCC23BC2A33C161912C0861645CA32D3DAAF48",
-    "releaseNotes":  "Corrigido o fluxo que ficava preso: a pagina local/placeholder aparece logo e a FPF carrega em segundo plano sem watchdog bloquear o ecra.",
+    "versionCode":  400,
+    "versionName":  "3.5.50",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.50/kickoff.apk",
+    "apkSha256":  "8BF08994B53A58D8F54EEE97F2537F1A3A0FFC212D109AC5492F36FCC62FD680",
+    "releaseNotes":  "Catalogo restringido aos escaloes configurados do Vieira. A app deixa de mostrar/carregar competicoes extra da associacao ou de snapshots antigos.",
     "changelog":  [
-                      "A selecao de escalao deixa de bloquear o job principal a espera da FPF.",
-                      "O refresh remoto passa a correr em background e aplica os dados quando termina.",
-                      "Removido o limite arbitrario de jornadas que podia apanhar fixtures sem jogos do Vieira."
+                      "A lista de competicoes passa a conter apenas Seniores, Juniores, Juvenis, Iniciados, Infantis, Benjamins, Traquinas e Petizes.",
+                      "O fluxo ignora catalogos antigos guardados localmente quando renderiza a WebView.",
+                      "Fetch FPF e background sync usam sempre os competitionId configurados para o Vieira."
                   ]
 }
