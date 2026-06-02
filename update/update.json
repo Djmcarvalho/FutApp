@@ -1,12 +1,12 @@
 {
-    "versionCode":  393,
-    "versionName":  "3.5.43",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.43/kickoff.apk",
-    "apkSha256":  "72B3446C3F3453F18048A065715DF60CFFBD27836C365B5A7EA2C56EB679AFBF",
-    "releaseNotes":  "A app deixa de esperar pela FPF no arranque quando já existe histórico local do clube.",
+    "versionCode":  394,
+    "versionName":  "3.5.44",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.44/kickoff.apk",
+    "apkSha256":  "944F98809169053C06BAB2A4DC996014CA8730D8FD71950588A224DAECD9D915",
+    "releaseNotes":  "A app deixa de bloquear no arranque quando não existe snapshot exacto da competição pedida.",
     "changelog":  [
-                      "Se a época actual não tiver snapshot, a app mostra o último calendário local conhecido do clube.",
-                      "O arranque passa a devolver controlo ao utilizador mais cedo e continua a sincronizar em segundo plano.",
-                      "Timeouts deixam de bloquear o primeiro ecrã quando há dados locais úteis."
+                      "O arranque mostra um ecrã local imediato em vez de esperar pela FPF quando falta o snapshot exacto.",
+                      "A competição seleccionada deixa de ser trocada por Séniores quando não há dados locais dessa competição.",
+                      "A sincronização remota continua em segundo plano sem prender a interface."
                   ]
 }
