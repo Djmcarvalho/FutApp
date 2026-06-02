@@ -1,12 +1,12 @@
 {
-    "versionCode":  397,
-    "versionName":  "3.5.47",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.47/kickoff.apk",
-    "apkSha256":  "F6DA13B0B0B982685022178F620D60572487437C9FED39EDF2FB2CDF3460257D",
-    "releaseNotes":  "Corrigido o carregamento dos escaloes: catalogo vem da pagina de competicoes da A.F. Braga e a app deixou de fazer probes lentos antes de abrir o escalao escolhido.",
+    "versionCode":  398,
+    "versionName":  "3.5.48",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.48/kickoff.apk",
+    "apkSha256":  "BD16FA3CF2A1C958D275554792B87DF247A5839AE627FF89D7F7760EC9982E83",
+    "releaseNotes":  "Carregamento mais rapido dos escaloes: a app limita o trabalho sincronico de fixtures e deixa de falhar por timeout antes de mostrar dados.",
     "changelog":  [
-                      "Removidos probes HTTP por competicao que deixavam a app lenta e bloqueavel pela FPF.",
-                      "O catalogo passa a usar os escaloes oficiais da A.F. Braga para a epoca 2025-2026.",
-                      "Ao escolher Juniores, Juvenis, Iniciados, Infantis, Benjamins, Traquinas ou Petizes a app abre diretamente o Competition/Details correspondente."
+                      "O foreground carrega apenas um subconjunto estrategico de jornadas por serie para responder antes do watchdog.",
+                      "A app deixa de transformar classificacoes reais em erro quando ainda nao conseguiu completar todos os jogos.",
+                      "Intervalo minimo entre pedidos FPF reduzido depois de remover os probes desnecessarios."
                   ]
 }
