@@ -1,12 +1,12 @@
 {
-    "versionCode":  392,
-    "versionName":  "3.5.42",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.42/kickoff.apk",
-    "apkSha256":  "E7FE26A91D9F8E37854C4320291F7E0A74F985CBE4ECE5B67FC8CEBE3DB17A4E",
-    "releaseNotes":  "Corrigido o arranque para nÃ£o ficar preso no carregamento quando a FPF demora ou responde mal.",
+    "versionCode":  393,
+    "versionName":  "3.5.43",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.43/kickoff.apk",
+    "apkSha256":  "72B3446C3F3453F18048A065715DF60CFFBD27836C365B5A7EA2C56EB679AFBF",
+    "releaseNotes":  "A app deixa de esperar pela FPF no arranque quando já existe histórico local do clube.",
     "changelog":  [
-                      "O carregamento inicial jÃ¡ nÃ£o depende de descoberta remota logo Ã  partida.",
-                      "A app passa a mostrar fallback local se a FPF demorar demasiado.",
-                      "A versÃ£o agora identifica esta correÃ§Ã£o como 3.5.42."
+                      "Se a época actual não tiver snapshot, a app mostra o último calendário local conhecido do clube.",
+                      "O arranque passa a devolver controlo ao utilizador mais cedo e continua a sincronizar em segundo plano.",
+                      "Timeouts deixam de bloquear o primeiro ecrã quando há dados locais úteis."
                   ]
 }
