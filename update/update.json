@@ -1,12 +1,12 @@
 {
-    "versionCode":  394,
-    "versionName":  "3.5.44",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.44/kickoff.apk",
-    "apkSha256":  "944F98809169053C06BAB2A4DC996014CA8730D8FD71950588A224DAECD9D915",
-    "releaseNotes":  "A app deixa de bloquear no arranque quando não existe snapshot exacto da competição pedida.",
+    "versionCode":  395,
+    "versionName":  "3.5.45",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.45/kickoff.apk",
+    "apkSha256":  "C15CC9DB8A0C3A5832487EC6A4272CA18C065B8C9DB43FF10F569BA7C008D81D",
+    "releaseNotes":  "Corrigido o carregamento inicial para aplicar os dados recebidos da FPF quando ainda nao existem dados locais.",
     "changelog":  [
-                      "O arranque mostra um ecrã local imediato em vez de esperar pela FPF quando falta o snapshot exacto.",
-                      "A competição seleccionada deixa de ser trocada por Séniores quando não há dados locais dessa competição.",
-                      "A sincronização remota continua em segundo plano sem prender a interface."
+                      "A resposta da FPF passa a substituir o placeholder quando a app arranca sem competicao selecionada.",
+                      "A sincronizacao em segundo plano ja nao fica bloqueada pelo throttle quando ainda nao existem dados locais.",
+                      "Mantida a protecao para nao trocar a competicao escolhida pelo utilizador durante o refresh."
                   ]
 }
