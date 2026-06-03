@@ -1,12 +1,12 @@
 {
-    "versionCode":  411,
-    "versionName":  "3.5.61",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.61/kickoff.apk",
-    "apkSha256":  "3AFF78D803EE86EC5796F6B9CB26E6A8525BDDAE9D1EB01944DB4B6F2B3EC48D",
-    "releaseNotes":  "Reduced fixture fan-out so refresh no longer waits on every series page.",
+    "versionCode":  412,
+    "versionName":  "3.5.62",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.62/kickoff.apk",
+    "apkSha256":  "6ED48E774741B0DEAB4858262DF283C2D4462A0C47ADB915F8F1CF7A8036635A",
+    "releaseNotes":  "Faster loading with shorter network waits and tighter retry pacing.",
     "changelog":  [
-                      "Limits youth competition fixture fan-out to three pages per series.",
-                      "Keeps the multi-phase parser, but avoids fetching every fixture page.",
-                      "Refresh falls back faster when the FPF is slow instead of stalling."
+                      "Cuts request gaps and retry backoffs so fixture loading moves faster.",
+                      "Shortens FPF HTTP timeouts while keeping the same data flow.",
+                      "Preserves the multi-phase parser and the existing competition output."
                   ]
 }
