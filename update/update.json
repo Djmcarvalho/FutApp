@@ -1,13 +1,13 @@
 {
-    "versionCode":  404,
-    "versionName":  "3.5.54",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.54/kickoff.apk",
-    "apkSha256":  "1384FF92D46D37E309D2EF192793C94869806ADB7E206C122C266BF6F133891C",
-    "releaseNotes":  "Classificacao reforcada: alguns escaloes da FPF expunham os dados em texto linear; a app agora reconstroi a tabela em vez de ficar vazia.",
-    "changelog":  [
-                      "Adiciona parser de classificacao em texto puro para os escaloes em que a FPF nao devolve a tabela em markup classico.",
-                      "Mantem o fallback a partir dos standings, mas agora tenta primeiro reconstruir a tabela real.",
-                      "Resolve o caso em que Traquinas so mostrava a equipa B.",
-                      "Nao mexe no fluxo de competicoes por equipa que ja estava a funcionar."
-                  ]
+  "versionCode": 405,
+  "versionName": "3.5.55",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.55/kickoff.apk",
+  "apkSha256": "9441F558B27853325C09E9C6A538F5A351D07D5E5B7F660D79B2C95FB25A80BF",
+  "releaseNotes": "Refresh e troca de epoca passam a ir direto a FPF; o parser da classificacao aceita o layout #/Equipa e evita tabelas vazias.",
+  "changelog": [
+    "Atualiza manualmente a partir da FPF em vez de depender da base local.",
+    "A troca de epoca deixa de renderizar um bundle antigo antes de buscar a competicao certa.",
+    "O parser da classificacao reconhece o cabecalho #/Equipa usado em alguns escaloes.",
+    "Mantem o fallback por standings apenas quando a FPF nao devolve a grelha."
+  ]
 }
