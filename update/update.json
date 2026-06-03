@@ -1,13 +1,13 @@
 {
-  "versionCode": 405,
-  "versionName": "3.5.55",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.55/kickoff.apk",
-  "apkSha256": "9441F558B27853325C09E9C6A538F5A351D07D5E5B7F660D79B2C95FB25A80BF",
-  "releaseNotes": "Refresh e troca de epoca passam a ir direto a FPF; o parser da classificacao aceita o layout #/Equipa e evita tabelas vazias.",
+  "versionCode": 406,
+  "versionName": "3.5.56",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.56/kickoff.apk",
+  "apkSha256": "10B64C7324B0AD7D11400D26A7579F2796BE09FCD39550C7E4A30D4CE734C71A",
+  "releaseNotes": "Phase handling and classification fallback were widened so competitions with 1st and 2nd phases render more reliably.",
   "changelog": [
-    "Atualiza manualmente a partir da FPF em vez de depender da base local.",
-    "A troca de epoca deixa de renderizar um bundle antigo antes de buscar a competicao certa.",
-    "O parser da classificacao reconhece o cabecalho #/Equipa usado em alguns escaloes.",
-    "Mantem o fallback por standings apenas quando a FPF nao devolve a grelha."
+    "Keeps all detected phases instead of collapsing multi-phase team competitions into the last block.",
+    "Accepts generic FPF phase labels such as 1A FASE and 2A FASE GRUPO N.",
+    "Shows classification tables even when the selected-club key cannot be inferred perfectly.",
+    "Marks the selected row per entry instead of flagging the whole table."
   ]
 }
