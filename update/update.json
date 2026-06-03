@@ -1,13 +1,12 @@
 {
-  "versionCode": 407,
-  "versionName": "3.5.57",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.57/kickoff.apk",
-  "apkSha256": "3682B6853A055CAC6F9FE90A5311D307627EFED72E9ABFD582B4E127A7A574F1",
-  "releaseNotes": "Multi-phase team competitions now keep all phases and show classification tables for each card.",
-  "changelog": [
-    "Keeps A and B when Traquinas exposes both team cards.",
-    "Parses classification tables from team-competition cards instead of dropping them.",
-    "Recognizes phase labels like 1A FASE and 2A FASE GRUPO N from the card text.",
-    "Preserves all detected phases instead of collapsing them to the last one."
-  ]
+    "versionCode":  408,
+    "versionName":  "3.5.58",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.58/kickoff.apk",
+    "apkSha256":  "B2FA9B6B666577DED9DBCA33DE00C5555811C3E4C474537D6A2E6B6EDB1D566F",
+    "releaseNotes":  "Benjamins, Iniciados, Infantis, Traquinas e Petizes now use the competition pipeline so phases and full standings stay intact.",
+    "changelog":  [
+                      "Routes the multi-phase youth categories through the competition pipeline instead of the summary-only team page.",
+                      "Keeps the full classification table for Benjamins and Iniciados.",
+                      "Preserves multiple phases instead of collapsing them to Fase Unica."
+                  ]
 }
