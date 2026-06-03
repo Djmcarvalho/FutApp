@@ -1,12 +1,12 @@
 {
-    "versionCode":  408,
-    "versionName":  "3.5.58",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.58/kickoff.apk",
-    "apkSha256":  "B2FA9B6B666577DED9DBCA33DE00C5555811C3E4C474537D6A2E6B6EDB1D566F",
-    "releaseNotes":  "Benjamins, Iniciados, Infantis, Traquinas e Petizes now use the competition pipeline so phases and full standings stay intact.",
+    "versionCode":  409,
+    "versionName":  "3.5.59",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.59/kickoff.apk",
+    "apkSha256":  "C63C9069084707F2DEB15C5338D9CB98F8F5EFB6D8AC1D24F186305D78022831",
+    "releaseNotes":  "More aggressive scraping for youth competitions, with less fallback to stale cache during refresh.",
     "changelog":  [
-                      "Routes the multi-phase youth categories through the competition pipeline instead of the summary-only team page.",
-                      "Keeps the full classification table for Benjamins and Iniciados.",
-                      "Preserves multiple phases instead of collapsing them to Fase Unica."
+                      "Keeps youth competition phases even when the club name is not repeated in the segment.",
+                      "Refresh now insists on the FPF before falling back to cached HTML.",
+                      "Preserves multi-phase competition pages while retaining full classification tables."
                   ]
 }
