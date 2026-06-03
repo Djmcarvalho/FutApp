@@ -1,12 +1,12 @@
 {
-    "versionCode":  410,
-    "versionName":  "3.5.60",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.60/kickoff.apk",
-    "apkSha256":  "52B273DB380E4C33D24D5D2B8A5CAEDD5DBBD142AC7F98869F36755C0A477031",
-    "releaseNotes":  "More aggressive scraping for youth competitions, with cache fallback reduced on refresh.",
+    "versionCode":  411,
+    "versionName":  "3.5.61",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.61/kickoff.apk",
+    "apkSha256":  "3AFF78D803EE86EC5796F6B9CB26E6A8525BDDAE9D1EB01944DB4B6F2B3EC48D",
+    "releaseNotes":  "Reduced fixture fan-out so refresh no longer waits on every series page.",
     "changelog":  [
-                      "Keeps youth competition phases even when the club name is not repeated in the segment.",
-                      "Refresh now retries the FPF first, then falls back faster if it is still slow.",
-                      "Preserves multi-phase competition pages while retaining full classification tables."
+                      "Limits youth competition fixture fan-out to three pages per series.",
+                      "Keeps the multi-phase parser, but avoids fetching every fixture page.",
+                      "Refresh falls back faster when the FPF is slow instead of stalling."
                   ]
 }
