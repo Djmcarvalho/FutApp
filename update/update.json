@@ -1,13 +1,13 @@
 {
-  "versionCode": 406,
-  "versionName": "3.5.56",
-  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.56/kickoff.apk",
-  "apkSha256": "10B64C7324B0AD7D11400D26A7579F2796BE09FCD39550C7E4A30D4CE734C71A",
-  "releaseNotes": "Phase handling and classification fallback were widened so competitions with 1st and 2nd phases render more reliably.",
+  "versionCode": 407,
+  "versionName": "3.5.57",
+  "apkUrl": "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.57/kickoff.apk",
+  "apkSha256": "3682B6853A055CAC6F9FE90A5311D307627EFED72E9ABFD582B4E127A7A574F1",
+  "releaseNotes": "Multi-phase team competitions now keep all phases and show classification tables for each card.",
   "changelog": [
-    "Keeps all detected phases instead of collapsing multi-phase team competitions into the last block.",
-    "Accepts generic FPF phase labels such as 1A FASE and 2A FASE GRUPO N.",
-    "Shows classification tables even when the selected-club key cannot be inferred perfectly.",
-    "Marks the selected row per entry instead of flagging the whole table."
+    "Keeps A and B when Traquinas exposes both team cards.",
+    "Parses classification tables from team-competition cards instead of dropping them.",
+    "Recognizes phase labels like 1A FASE and 2A FASE GRUPO N from the card text.",
+    "Preserves all detected phases instead of collapsing them to the last one."
   ]
 }
