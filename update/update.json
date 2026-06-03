@@ -1,13 +1,13 @@
 {
-    "versionCode":  401,
-    "versionName":  "3.5.51",
-    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.51/kickoff.apk",
-    "apkSha256":  "0F08E1863369D807FCD7948E6AEAA620EB9363A85A602CC85FB2FA66B22557D0",
-    "releaseNotes":  "Scraping FPF corrigido: usa endpoint direto por equipa, valida bloqueios/HTML invalido e evita ecra preso no carregamento.",
+    "versionCode":  402,
+    "versionName":  "3.5.52",
+    "apkUrl":  "https://raw.githubusercontent.com/Djmcarvalho/FutApp/main/dist/3.5.52/kickoff.apk",
+    "apkSha256":  "DE0B11D97006906806FD0D893989A29602ADB04758AB06ADE41A8D8A9E8934D7",
+    "releaseNotes":  "Scraping FPF refeito: descobre as competicoes do clube por equipa, filtra Tacas/Futsal e reduz chamadas lentas.",
     "changelog":  [
-                      "Usa TeamCompetitions da FPF para carregar jogos por escalao quando existe teamId.",
-                      "Corrige Benjamins, Iniciados e Petizes para carregarem de forma rapida e direta.",
-                      "Rejeita respostas FPF bloqueadas ou vazias em vez de aceitar HTML invalido.",
-                      "Mostra erro claro quando o background falha, sem deixar skeleton infinito."
+                      "Descobre equipas no detalhe do clube e usa TeamCompetitions por teamId antes de consultar a lista AF Braga.",
+                      "Filtra Tacas, Supertacas e Futsal no parser e no fluxo de fallback.",
+                      "Corrige Juvenis para o campeonato 28491 em vez da Taca 28653.",
+                      "Evita carregar a lista AF Braga quando o catalogo direto da equipa ja tem dados validos."
                   ]
 }
